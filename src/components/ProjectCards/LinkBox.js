@@ -7,21 +7,13 @@ function LinkBox(props) {
         <b>Links: </b>
       </div>
       <div className="project-links col-11">
-        {props.links.map(link => (
-          <div className="project-link">
+        {props.links.map((link, index) => (
+          <div key={index} className="project-link">
             <a href={link} target="_blank" rel="noreferrer">
               {link}
             </a>
           </div>
         ))}
-
-        <div className="project-link">
-          <a
-            href={`https://github.com/${props.github_owner}/${props.github_repo}`}
-            target="_blank"
-            rel="noreferrer"
-          >{`https://github.com/${props.github_owner}/${props.github_repo}`}</a>
-        </div>
       </div>
     </div>
   );
