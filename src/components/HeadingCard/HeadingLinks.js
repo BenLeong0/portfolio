@@ -10,6 +10,7 @@ const ProfileButton = props => (
         id={props.id}
         href={props.url}
         target="_blank"
+        rel="noreferrer"
       >
         <svg width="40" height="40" viewBox="0 0 24 24">
           <path d={props.path} />

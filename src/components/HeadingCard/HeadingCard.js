@@ -7,8 +7,8 @@ function HeadingCard() {
     <>
       <div id="heading-card">
         <div id="heading-title">
-          <div style={{ "font-size": "50px" }}>Coding Portfolio</div>
-          <div style={{ "font-size": "30px" }}>Ben Leong</div>
+          <div style={{ fontSize: "50px" }}>Coding Portfolio</div>
+          <div style={{ fontSize: "30px" }}>Ben Leong</div>
         </div>
       </div>
       <HeadingLinks />
