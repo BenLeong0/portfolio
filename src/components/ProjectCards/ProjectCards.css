@@ -24,9 +24,16 @@
   height: auto;
 }
 
+.project-graph {
+  padding: 5px 0;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
 .project-graph svg {
   height: 120px;
   width: 190px;
+  margin: auto;
+  display: block;
 }
 
 .project-graph-label {
