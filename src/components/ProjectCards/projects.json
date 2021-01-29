@@ -5,7 +5,8 @@
       "id": "project-projecteuler",
       "github_owner": "BenLeong0",
       "github_repo": "ProjectEuler",
-      "description": "wow so many problems",
+      "description": "Project Euler is a series of mathematics-programming hybrid problems, hosted at ProjectEuler.net. Most problems take the form of a mathematical idea and toy cases, and require the answerer to use programming to extend it to a further degree. This was one of my first projects, and I used it to develop fundamental programming and Python skills.",
+      "links": ["https://projecteuler.net/"],
       "tags": ["Python", "Algorithms"],
       "endDate": "2020-10-13"
     },
@@ -15,6 +16,7 @@
       "github_owner": "BenLeong0",
       "github_repo": "AlgorithmVisualisations",
       "description": "wow so many algorithms",
+      "links": ["https://benleong0.github.io/AlgorithmVisualisations/"],
       "tags": ["JavaScript", "Algorithms"]
     },
     {
@@ -22,6 +24,7 @@
       "id": "project-portfolio",
       "github_owner": "BenLeong0",
       "github_repo": "portfolio",
+      "links": ["https://benleong0.github.io/portfolio/"],
       "description": "wow so many boxes",
       "tags": ["JavaScript", "ReactJS", "HTML", "CSS"]
     }
