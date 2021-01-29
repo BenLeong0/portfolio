@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  height: 100vh;
 }
 
 .App {
@@ -21,9 +22,6 @@ body {
   flex-direction: column;
   max-width: 800px;
   margin: auto;
-  /* align-items: center;
-  justify-content: center;
-  color: white; */
 }
 
 /* For mobile phones: */

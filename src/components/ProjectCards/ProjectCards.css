@@ -13,9 +13,15 @@
 }
 
 .project-description {
-  margin: 10px;
+  margin: 10px 20px 0 10px;
   font-style: italic;
   text-align: justify;
+}
+
+.project-description p {
+  margin-block-start: 0.6em;
+  margin-block-end: 0.6em;
+  text-indent: 20px;
 }
 
 .project-image {
