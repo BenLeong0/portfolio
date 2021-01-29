@@ -1,6 +1,9 @@
 import React from "react";
 
 function LinkBox(props) {
+  if (props.links.length === 0) {
+    return <></>;
+  }
   return (
     <div className="project-link-box col-10">
       <div className="project-link-title col-1">
