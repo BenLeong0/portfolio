@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "Project Euler",
+      "id": "project-projecteuler",
+      "github_owner": "BenLeong0",
+      "github_repo": "ProjectEuler",
+      "description": "wow so many problems",
+      "tags": ["Python", "Algorithms"]
+    },
+    {
+      "name": "Algorithms Visualisations",
+      "id": "project-algorithmsvisualisations",
+      "github_owner": "BenLeong0",
+      "github_repo": "AlgorithmVisualisations",
+      "description": "wow so many algorithms",
+      "tags": ["JavaScript", "Algorithms"]
+    },
+    {
+      "name": "Portfolio",
+      "id": "project-portfolio",
+      "github_owner": "BenLeong0",
+      "github_repo": "portfolio",
+      "description": "wow so many boxes",
+      "tags": ["JavaScript", "ReactJS", "HTML", "CSS"]
+    }
+  ]
+}

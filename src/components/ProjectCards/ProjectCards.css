@@ -1,0 +1,58 @@
+.project-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.project-title {
+  font-size: 30px;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
+}
+
+.project-description {
+  margin: 10px;
+}
+
+.project-image {
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+}
+
+.project-graph svg {
+  height: 120px;
+  width: 190px;
+}
+
+.project-graph-label {
+  font-size: 10px;
+  text-align: center;
+}
+
+.project-tags {
+  margin-top: 10px;
+}
+
+.project-tag {
+  font-style: italic;
+  font-size: 80%;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .project-card {
+    margin: 10px 0;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .project-card {
+    margin: 10px 0;
+  }
+}
