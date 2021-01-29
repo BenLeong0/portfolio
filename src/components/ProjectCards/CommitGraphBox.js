@@ -4,7 +4,7 @@ import CommitGraph from "./CommitGraph";
 
 function CommitGraphBox(props) {
   const [endDates, setEndDates] = useState([0, 0]);
-  const [graphPoints, setGraphPoints] = useState([0]);
+  const [graphPoints, setGraphPoints] = useState([0, 1]);
   const [totalCommits, setTotalCommits] = useState(0);
 
   const convertDay = date => {
@@ -40,7 +40,6 @@ function CommitGraphBox(props) {
       prevDate = newDate;
     });
     currGraphPoints.push(commits);
-
     setTotalCommits(commits);
     setGraphPoints(currGraphPoints);
   };
@@ -64,10 +63,10 @@ function CommitGraphBox(props) {
         `https://api.github.com/repos/${props.github_owner}/${props.github_repo}/commits`,
         config
       );
-      updateGraph(resp.data);
+      return resp.data;
     };
 
-    fetchData();
+    fetchData().then(updateGraph);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
