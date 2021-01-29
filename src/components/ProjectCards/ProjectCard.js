@@ -10,11 +10,17 @@ import LinkBox from "./LinkBox";
 class ProjectCard extends React.Component {
   render() {
     const project = this.props;
+    console.log(project.description);
     return (
       <div className="project-card">
         <div className="project-text col-9">
           <div className="project-title">{project.name}</div>
-          <div className="project-description">{project.description}</div>
+          <div className="project-description">
+            {project.description.map((paragraph, index) => {
+              console.log("para" + index, paragraph);
+              return <p key={"para" + index}>{paragraph}</p>;
+            })}
+          </div>
         </div>
 
         <div className="col-3">

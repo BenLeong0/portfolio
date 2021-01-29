@@ -16,7 +16,7 @@ function CommitGraphBox(props) {
     const startDate = new Date(
       data[data.length - 1].commit.author.date.slice(0, 10)
     );
-    setEndDates([startDate, endDate]);
+    setEndDates([startDate - 1, endDate]);
 
     var prevDate = convertDay(startDate) - 1;
     var currGraphPoints = [];
