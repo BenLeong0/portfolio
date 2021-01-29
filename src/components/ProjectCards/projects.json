@@ -5,11 +5,15 @@
       "id": "project-projecteuler",
       "github_owner": "BenLeong0",
       "github_repo": "ProjectEuler",
+      "github_public": true,
       "description": [
         "Project Euler is a series of mathematics-programming hybrid problems, hosted at ProjectEuler.net. Most problems take the form of a mathematical idea and toy cases, and require the answerer to use programming to extend it to a further degree.",
         "This was one of my first projects, and I used it to develop fundamental programming and Python skills. I began working through them in July 2020 (before I used GitHub)."
       ],
-      "links": ["https://projecteuler.net/"],
+      "links": [
+        "https://projecteuler.net/",
+        "https://github.com/BenLeong0/ProjectEuler"
+      ],
       "tags": ["Python", "Algorithms"],
       "endDate": "2020-10-13"
     },
@@ -18,18 +22,81 @@
       "id": "project-algorithmsvisualisations",
       "github_owner": "BenLeong0",
       "github_repo": "AlgorithmVisualisations",
-      "description": ["wow so many algorithms"],
-      "links": ["https://benleong0.github.io/AlgorithmVisualisations/"],
+      "github_public": true,
+      "description": [
+        "In my final year of university I took a computer science module titled Algorithms. In this project I coded a number of them and others in JavaScript, and built pages using HTML and CSS to create visualisations of the algorithms.",
+        "These include sorting algorithms (eg. merge sort, quick sort, radix sort), graph searching (BFS and DFS), and a backtracking algorithm to solve Sudoku problems."
+      ],
+      "links": [
+        "https://benleong0.github.io/AlgorithmVisualisations/",
+        "https://github.com/BenLeong0/AlgorithmVisualisations"
+      ],
       "tags": ["JavaScript", "Algorithms"]
+    },
+    {
+      "name": "Tile Game",
+      "id": "project-tilegame",
+      "github_owner": "BenLeong0",
+      "github_repo": "TileGame",
+      "github_public": false,
+      "links": ["https://www.bigduckgames.com/flowfree"],
+      "description": [
+        "I have been developing a mobile puzzle game as part of a team of four, using GitHub to share our code and collaborate. Having coded entirely solo for all my other projects, this project has been very insightful into the differences and challenges that working in a team presents.",
+        "GitHub has been instrumental in our work so far, not only as a place to collectively host our code where we can easily update and pull from, but also to allow us to organise our work (through branches and the Projects feature), as well as identify individual changes we have made to assist us with bug-fixing.",
+        "At this point the foundation of the game has been all but completed, and now we are working on the interface, UX and level design."
+      ],
+      "tags": ["Python", "Mobile game", "GitHub", "Group project", "Kivy"],
+      "endDate": "2021-01-15"
     },
     {
       "name": "Portfolio",
       "id": "project-portfolio",
       "github_owner": "BenLeong0",
       "github_repo": "portfolio",
-      "links": ["https://benleong0.github.io/portfolio/"],
-      "description": ["wow so many boxes"],
-      "tags": ["JavaScript", "ReactJS", "HTML", "CSS"]
+      "github_public": true,
+      "links": [
+        "https://benleong0.github.io/portfolio/",
+        "https://github.com/BenLeong0/portfolio"
+      ],
+      "description": [
+        "I created this portfolio from the ground up with ReactJS, using Create-React-App as a basis. Beyond being just a simple list of my projects, it also includes features such as calling GitHub's API to retrieve information about the commit history of projects, and generate an SVG graph to dislay the information.",
+        "This is one of my first React projects, and although it doesn't implement the full extent of React's responsive capabilities, it has been a good exercise to practise component and functional JS usage."
+      ],
+      "tags": ["JavaScript", "ReactJS", "HTML", "CSS", "create-react-app"]
+    },
+    {
+      "name": "Advent of Code",
+      "id": "project-aoc",
+      "github_owner": "BenLeong0",
+      "github_repo": "AdventOfCode",
+      "github_public": true,
+      "links": [
+        "https://github.com/BenLeong0/AdventOfCode",
+        "https://adventofcode.com/"
+      ],
+      "description": [
+        "Advent of Code is an annual coding challenge, where a new problem is released every day of December leading up to Christmas day. While I didn't attempt to compete for leaderboard placements (mainly due to timezone disparities), I made sure to complete each puzzle within the day.",
+        "The problems are all Christmas themed, and similar to Project Euler questions where the aim is to design an algorithm to solve a problem as it scales."
+      ],
+      "tags": ["Python", "Algorithms"]
+    },
+    {
+      "name": "Anki Pitch Accent Addon",
+      "id": "project-anki",
+      "github_owner": "BenLeong0",
+      "github_repo": "AnkiPitchAccentImport",
+      "github_public": true,
+      "links": [
+        "https://github.com/BenLeong0/AnkiPitchAccentImport",
+        "https://ankiweb.net/about",
+        "https://github.com/IllDepence/anki_add_pitch_plugin"
+      ],
+      "description": [
+        "One of my main extracurricular activites is learning Japanese - I have been studying for over 5 years now, and spent a year abroad at the University of Tokyo during my degree. My main form of studying has always rote memorisation through flashcards, using the program Anki.",
+        "Recently I have been become interested in the intonation of Japanese words, and as such I developed an addon for Anki to help visualise the pitch accent of my vocabulary, by generating diagrams of the intonation of words I add to my deck. For this I adapted another addon (linked below), to read my personal method of encoding the data, and inserting it into flashcards as they are added."
+      ],
+      "tags": ["Python", "Japanese"],
+      "endDate": "2021-01-15"
     }
   ]
 }
