@@ -1,22 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import HeadingCard from "./components/HeadingCard/HeadingCard";
+import ProjectCards from "./components/ProjectCard/ProjectCards";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload WOO.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeadingCard />
+      <ProjectCards />
     </div>
   );
 }
