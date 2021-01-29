@@ -1,6 +1,6 @@
 import "./App.css";
 import HeadingCard from "./components/HeadingCard/HeadingCard";
-import ProjectCards from "./components/ProjectCard/ProjectCards";
+import ProjectCards from "./components/ProjectCards/ProjectCards";
 
 function App() {
   return (
