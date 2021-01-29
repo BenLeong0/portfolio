@@ -39,11 +39,11 @@
       "github_owner": "BenLeong0",
       "github_repo": "TileGame",
       "github_public": false,
-      "links": ["https://www.bigduckgames.com/flowfree"],
+      "links": [],
       "description": [
         "I have been developing a mobile puzzle game as part of a team of four, using GitHub to share our code and collaborate. Having coded entirely solo for all my other projects, this project has been very insightful into the differences and challenges that working in a team presents.",
         "GitHub has been instrumental in our work so far, not only as a place to collectively host our code where we can easily update and pull from, but also to allow us to organise our work (through branches and the Projects feature), as well as identify individual changes we have made to assist us with bug-fixing.",
-        "At this point the foundation of the game has been all but completed, and now we are working on the interface, UX and level design."
+        "The aim of the game is traverse a grid from a given start point to a given end point, covering every 'active' tile along the way - we plan to make these active tiles correspond to an image in the background, so completely the level is synonymous with 'colouring in' the image. At this point the foundation of the game has been all but completed, and now we are working on the GUI, UX and level design."
       ],
       "tags": ["Python", "Mobile game", "GitHub", "Group project", "Kivy"],
       "endDate": "2021-01-15"
