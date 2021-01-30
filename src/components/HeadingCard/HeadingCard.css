@@ -1,14 +1,6 @@
-#heading-card {
-  font-size: calc(10px + 4vmin);
-  background-color: rgba(255, 255, 255, 0.7);
-  /*height: 10vh;*/
-  margin: 10px;
-}
-
 #heading-title {
   float: left;
-  padding: 20px;
-  font-size: 40px;
+  /* padding: 20px; */
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
     "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
     "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
@@ -19,6 +11,24 @@
   background-color: rgba(255, 255, 255, 0.7);
   margin: 10px;
   font-size: 1vh;
+}
+
+.p-info-box {
+}
+
+#p-info-photo {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120px;
+}
+
+#p-info-photo img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+#p-info-desc {
+  text-align: justify;
 }
 
 .profile-link {
@@ -33,13 +43,10 @@
   width: 33%;
 }
 
-/* For tablets: */
+/* For tablets (+ desktop): */
 @media only screen and (min-width: 600px) {
   #heading-card {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 5vmin;
-    width: 100%;
   }
   #heading-links {
     width: 210px;
@@ -56,21 +63,7 @@
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {
-  #heading-card {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vmin;
-    width: 100%;
-  }
-  #heading-links {
-    width: 210px;
-    margin: 10px 0;
-    padding: 0 20px;
-  }
-  .profile-col {
-    float: left;
-  }
-  .profile-link {
-    margin: 10px auto;
+  #p-info-photo {
+    padding-right: 20px;
   }
 }

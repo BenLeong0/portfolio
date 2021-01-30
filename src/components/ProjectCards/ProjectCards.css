@@ -1,7 +1,5 @@
 .project-card {
-  background-color: rgba(255, 255, 255, 0.7);
-  margin: 10px;
-  padding: 10px 20px;
+  padding-top: 10px;
 }
 
 .project-title {
@@ -72,16 +70,10 @@
   padding: 10px 0 0 0;
 }
 
-/* For tablets: */
+/* For tablets (+ desktop): */
 @media only screen and (min-width: 600px) {
-  .project-card {
-    margin: 10px 0;
-  }
 }
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {
-  .project-card {
-    margin: 10px 0;
-  }
 }
