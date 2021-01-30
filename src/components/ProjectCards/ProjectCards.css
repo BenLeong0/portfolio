@@ -30,6 +30,7 @@
   margin: auto;
   max-width: 240px;
   user-select: none;
+  margin-bottom: 5px;
 }
 
 .project-image img {

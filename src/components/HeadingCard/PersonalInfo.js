@@ -12,8 +12,8 @@ function PersonalInfo(props) {
       <div id="p-info-desc" className="col-10">
         <b>Welcome to my programming portfolio!</b>
         <br /> My name is Ben, and I am a recent mathematics graduate from the
-        University of Warwick. Since graduating I have been self-teaching
-        programming, working on a number of personal projects in both Python and
+        University of Warwick. Since graduating I have been teaching myself to
+        code, working on a number of personal projects in both Python and
         JavaScript, which can be found below.
       </div>
     </div>

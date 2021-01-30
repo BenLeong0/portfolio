@@ -29,11 +29,8 @@ class ProjectCard extends React.Component {
           </div>
 
           <div className="col-3 project-r-col">
-            {project.github_public ? (
-              <CommitGraphBox {...project} />
-            ) : (
-              <ProjectImage {...project} />
-            )}
+            {"image_url" in project ? <ProjectImage {...project} /> : <></>}
+            {project.github_public ? <CommitGraphBox {...project} /> : <></>}
           </div>
 
           <LinkBox {...project} />

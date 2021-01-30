@@ -6,6 +6,7 @@
       "github_owner": "BenLeong0",
       "github_repo": "ProjectEuler",
       "github_public": true,
+      "image_url": "project-projecteuler-img.png",
       "description": [
         "Project Euler is a series of mathematics-programming hybrid problems, hosted at ProjectEuler.net. Most problems take the form of a mathematical idea and toy cases, and require the answerer to use programming to extend it to a further degree.",
         "This was one of my first projects, and I used it to develop fundamental programming and Python skills. I began working through them in July 2020 (before I used GitHub)."
@@ -23,8 +24,9 @@
       "github_owner": "BenLeong0",
       "github_repo": "AlgorithmVisualisations",
       "github_public": true,
+      "image_url": "project-algorithmsvisualisations-img.gif",
       "description": [
-        "In my final year of university I took a computer science module titled Algorithms. In this project I coded a number of them and others in JavaScript, and built pages using HTML and CSS to create visualisations of the algorithms.",
+        "In my final year of university I took a computer science module titled Algorithms. In this project I coded a number of them and others in JavaScript, and built pages using HTML and CSS to create visualisations of the algorithms (linked below, hosted on GitHub pages).",
         "These include sorting algorithms (eg. merge sort, quick sort, radix sort), graph searching (BFS and DFS), and a backtracking algorithm to solve Sudoku problems."
       ],
       "links": [
@@ -39,6 +41,7 @@
       "github_owner": "BenLeong0",
       "github_repo": "TileGame",
       "github_public": false,
+      "image_url": "project-tilegame-img.png",
       "links": [],
       "description": [
         "I have been developing a mobile puzzle game as part of a team of four, using GitHub to share our code and collaborate. Having coded entirely solo for all my other projects, this project has been very insightful into the differences and challenges that working in a team presents.",
@@ -70,13 +73,14 @@
       "github_owner": "BenLeong0",
       "github_repo": "AdventOfCode",
       "github_public": true,
+      "image_url": "project-adventofcode-img.png",
       "links": [
         "https://github.com/BenLeong0/AdventOfCode",
         "https://adventofcode.com/"
       ],
       "description": [
         "Advent of Code is an annual coding challenge, where a new problem is released every day of December leading up to Christmas day. While I didn't attempt to compete for leaderboard placements (mainly due to timezone disparities), I made sure to complete each puzzle within the day.",
-        "The problems are all Christmas themed, and similar to Project Euler questions where the aim is to design an algorithm to solve a problem as it scales."
+        "The problems are all Christmas themed, and similar to Project Euler questions where the aim is to design an algorithm to solve a problem as it scales from a small example to a much larger input."
       ],
       "tags": ["Python", "Algorithms"]
     },
@@ -86,6 +90,7 @@
       "github_owner": "BenLeong0",
       "github_repo": "AnkiPitchAccentImport",
       "github_public": true,
+      "image_url": "project-anki-img.png",
       "links": [
         "https://github.com/BenLeong0/AnkiPitchAccentImport",
         "https://ankiweb.net/about",
