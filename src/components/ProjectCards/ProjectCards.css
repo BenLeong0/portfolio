@@ -24,7 +24,14 @@
   text-indent: 20px;
 }
 
+.project-r-col {
+  margin-top: 5px;
+}
+
 .project-image {
+  margin: auto;
+  max-width: 240px;
+  user-select: none;
 }
 
 .project-image img {

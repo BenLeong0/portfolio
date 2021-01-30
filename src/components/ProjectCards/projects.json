@@ -59,8 +59,8 @@
         "https://github.com/BenLeong0/portfolio"
       ],
       "description": [
-        "I created this portfolio from the ground up with ReactJS, using Create-React-App as a basis. Beyond being just a simple list of my projects, it also includes features such as calling GitHub's API to retrieve information about the commit history of projects, and generate an SVG graph to dislay the information.",
-        "This is one of my first React projects, and although it doesn't implement the full extent of React's responsive capabilities, it has been a good exercise to practise component and functional JS usage."
+        "I created this portfolio from the ground up with ReactJS, using Create-React-App as a basis. Beyond being just a simple list of my projects, it also includes features such as calling GitHub's API to retrieve information about the commit history of projects, and generate SVG graphs to display the information.",
+        "This is one of my first React projects, and although it doesn't implement the full extent of React's responsive capabilities, it has been a good exercise to practise component and functional JS usage, as well as dealing with APIs."
       ],
       "tags": ["JavaScript", "ReactJS", "HTML", "CSS", "create-react-app"]
     },
@@ -92,8 +92,8 @@
         "https://github.com/IllDepence/anki_add_pitch_plugin"
       ],
       "description": [
-        "One of my main extracurricular activites is learning Japanese - I have been studying for over 5 years now, and spent a year abroad at the University of Tokyo during my degree. My main form of studying has always rote memorisation through flashcards, using the program Anki.",
-        "Recently I have been become interested in the intonation of Japanese words, and as such I developed an addon for Anki to help visualise the pitch accent of my vocabulary, by generating diagrams of the intonation of words I add to my deck. For this I adapted another addon (linked below), to read my personal method of encoding the data, and inserting it into flashcards as they are added."
+        "One of my main extracurricular activites is learning Japanese - I have been studying for over 5 years now, and spent a year abroad at the University of Tokyo during my degree. My main form of studying has always been rote memorisation through flashcards, using the program Anki.",
+        "Recently I have been become interested in the intonation of Japanese words, and as such I developed an addon for Anki to help visualise the pitch accent of my vocabulary, by generating diagrams of the intonation of words I add to my deck. For this I adapted a similar addon (linked below) to read my personal method of encoding the data, and insert the diagrams into flashcards as they are added."
       ],
       "tags": ["Python", "Japanese"],
       "endDate": "2021-01-15"

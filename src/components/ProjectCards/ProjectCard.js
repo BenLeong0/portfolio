@@ -22,7 +22,7 @@ class ProjectCard extends React.Component {
           </div>
         </div>
 
-        <div className="col-3">
+        <div className="col-3 project-r-col">
           {project.github_public ? (
             <CommitGraphBox {...project} />
           ) : (
