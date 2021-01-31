@@ -29,6 +29,14 @@
 
 #p-info-desc {
   text-align: justify;
+  font-family: "lato";
+}
+
+#p-info-desc-title {
+  font-weight: bolder;
+}
+
+#p-info-desc-text {
 }
 
 .profile-link {
@@ -44,9 +52,9 @@
 }
 
 /* For tablets (+ desktop): */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
   #heading-card {
-    margin-top: 5vmin;
+    margin-top: 3vmin;
   }
   #heading-links {
     width: 210px;
@@ -59,11 +67,11 @@
   .profile-link {
     margin: 10px auto;
   }
+  #p-info-photo {
+    padding-right: 20px;
+  }
 }
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {
-  #p-info-photo {
-    padding-right: 20px;
-  }
 }

@@ -10,11 +10,16 @@ function PersonalInfo(props) {
         </div>
       </div>
       <div id="p-info-desc" className="col-10">
-        <b>Welcome to my programming portfolio!</b>
-        <br /> My name is Ben, and I am a recent mathematics graduate from the
-        University of Warwick. Since graduating I have been teaching myself to
-        code, working on a number of personal projects in both Python and
-        JavaScript, which can be found below.
+        <span id="p-info-desc-title">Welcome to my programming portfolio!</span>
+        <br />
+        <span id="p-info-desc-text">
+          My name is Ben, and I am a recent mathematics graduate from the
+          University of Warwick. Since graduating I have been teaching myself to
+          code, working on a number of personal projects in both Python and
+          JavaScript, which can be found below. Most of the projects I have done
+          have been based around implementing algorithms, but recently I have
+          also begun learning ReactJS (which I used to create this portfolio).
+        </span>
       </div>
     </div>
   );

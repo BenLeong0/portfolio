@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@300&display=swap");
+
 [class*="col-"] {
   float: left;
 }
@@ -15,7 +17,8 @@
 }
 
 body {
-  background-image: url("mountains.jpg");
+  /* background-image: url("mountains.jpg"); */
+  background-color: #1b2435;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -28,6 +31,7 @@ body {
   flex-direction: column;
   max-width: 800px;
   margin: auto;
+  background-color: rgb(255, 255, 255, 0.1);
 }
 
 /* For mobile phones: */
@@ -36,7 +40,7 @@ body {
 }
 
 /* For tablets (+ desktop): */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
   .col-1 {
     width: 8.33%;
   }
@@ -75,6 +79,9 @@ body {
   }
   .card-general {
     margin: 10px 0;
+  }
+  .App {
+    padding: 0 50px;
   }
 }
 
