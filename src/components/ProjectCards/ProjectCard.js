@@ -2,6 +2,7 @@ import React from "react";
 import CommitGraphBox from "./CommitGraphBox";
 import LinkBox from "./LinkBox";
 import ProjectImage from "./ProjectImage";
+import ProjectVideo from "./ProjectVideo";
 import { Fade } from "react-awesome-reveal";
 
 // <img
@@ -29,6 +30,7 @@ class ProjectCard extends React.Component {
           </div>
 
           <div className="col-3 project-r-col">
+            {"video_url" in project ? <ProjectVideo {...project} /> : <></>}
             {"image_url" in project ? <ProjectImage {...project} /> : <></>}
             {project.github_public ? <CommitGraphBox {...project} /> : <></>}
           </div>

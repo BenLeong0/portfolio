@@ -6,7 +6,7 @@
       "github_owner": "BenLeong0",
       "github_repo": "AlgorithmVisualisations",
       "github_public": true,
-      "video_url": "project-algorithmsvisualisations-vid.mpeg",
+      "image_url": "project-algorithmsvisualisations-vid.gif",
       "description": [
         "In my final year of university I took a computer science module titled Algorithms. In this project I coded a number of the algorithms covered in that class (and others) in JavaScript, and built pages using HTML and CSS to create intuitive visualisations of the algorithms (hosted on GitHub pages, linked below).",
         "These include sorting algorithms (eg. merge sort, quick sort, radix sort), an interactive graph searching page (using BFS), a maze generator (using DFS), and a backtracking algorithm to solve Sudoku problems. I found this project beneficial for aiding my understanding of the workings of these common and useful algorithms, as well as a good way to get to grips with JavaScript and its implementation in webpages."
