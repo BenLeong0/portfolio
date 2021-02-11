@@ -6,7 +6,7 @@
       "github_owner": "BenLeong0",
       "github_repo": "AlgorithmVisualisations",
       "github_public": true,
-      "image_url": "project-algorithmsvisualisations-vid.gif",
+      "video_url": "project-algorithmsvisualisations-vid.webm",
       "description": [
         "In my final year of university I took a computer science module titled Algorithms. In this project I coded a number of the algorithms covered in that class (and others) in JavaScript, and built pages using HTML and CSS to create intuitive visualisations of the algorithms (hosted on GitHub pages, linked below).",
         "These include sorting algorithms (eg. merge sort, quick sort, radix sort), an interactive graph searching page (using BFS), a maze generator (using DFS), and a backtracking algorithm to solve Sudoku problems. I found this project beneficial for aiding my understanding of the workings of these common and useful algorithms, as well as a good way to get to grips with JavaScript and its implementation in webpages."
@@ -23,7 +23,7 @@
       "github_owner": "BenLeong0",
       "github_repo": "TileGame",
       "github_public": false,
-      "image_url": "project-tilegame-img.png",
+      "video_url": "project-tilegame-vid.webm",
       "links": [],
       "description": [
         "I have been developing a mobile puzzle game as part of a team of four, using GitHub to share our code and collaborate. Having coded entirely solo for all my other projects, this project has been very insightful into the differences and challenges that working in a team presents.",
@@ -68,6 +68,25 @@
       "endDate": "2020-10-13"
     },
     {
+      "name": "Anki Pitch Accent Addon",
+      "id": "project-anki",
+      "github_owner": "BenLeong0",
+      "github_repo": "AnkiPitchAccentImport",
+      "github_public": true,
+      "image_url": "project-anki-img.png",
+      "links": [
+        "https://github.com/BenLeong0/AnkiPitchAccentImport",
+        "https://ankiweb.net/about",
+        "https://github.com/IllDepence/anki_add_pitch_plugin"
+      ],
+      "description": [
+        "One of my main extracurricular activites is learning Japanese - I have been studying for over 5 years now and spent a year abroad at the University of Tokyo, during which I passed the Japanese Language Proficiency Test N2. My main form of studying has always been rote memorisation through flashcards, using the program Anki.",
+        "Recently I have been become interested in the intonation of Japanese words, and as such I developed an addon for Anki to help visualise the pitch accent of my vocabulary, by generating diagrams of the intonation of words I add to my deck. For this I adapted a similar addon (linked below) to read my personal method of encoding the data, and insert the diagrams into flashcards as they are added."
+      ],
+      "tags": ["Python", "Japanese"],
+      "endDate": "2021-01-15"
+    },
+    {
       "name": "Advent of Code",
       "id": "project-aoc",
       "github_owner": "BenLeong0",
@@ -83,25 +102,6 @@
         "The problems are all Christmas themed, and similar to Project Euler questions where the aim is to design an algorithm to solve a problem as it scales from a small example to a much larger input."
       ],
       "tags": ["Python", "Algorithms"]
-    },
-    {
-      "name": "Anki Pitch Accent Addon",
-      "id": "project-anki",
-      "github_owner": "BenLeong0",
-      "github_repo": "AnkiPitchAccentImport",
-      "github_public": true,
-      "image_url": "project-anki-img.png",
-      "links": [
-        "https://github.com/BenLeong0/AnkiPitchAccentImport",
-        "https://ankiweb.net/about",
-        "https://github.com/IllDepence/anki_add_pitch_plugin"
-      ],
-      "description": [
-        "One of my main extracurricular activites is learning Japanese - I have been studying for over 5 years now, and spent a year abroad at the University of Tokyo during my degree. My main form of studying has always been rote memorisation through flashcards, using the program Anki.",
-        "Recently I have been become interested in the intonation of Japanese words, and as such I developed an addon for Anki to help visualise the pitch accent of my vocabulary, by generating diagrams of the intonation of words I add to my deck. For this I adapted a similar addon (linked below) to read my personal method of encoding the data, and insert the diagrams into flashcards as they are added."
-      ],
-      "tags": ["Python", "Japanese"],
-      "endDate": "2021-01-15"
     }
   ]
 }

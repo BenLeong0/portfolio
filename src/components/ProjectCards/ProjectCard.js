@@ -18,6 +18,7 @@ class ProjectCard extends React.Component {
         className="project-card card-general"
         direction="up"
         triggerOnce="true"
+        fraction="0.4"
       >
         <>
           <div className="project-text col-9">

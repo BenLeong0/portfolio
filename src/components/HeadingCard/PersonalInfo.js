@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "./PersonalInfo-Photo.png";
+import photo from "./PersonalInfo-PhotoReal.png";
 
 function PersonalInfo(props) {
   return (
