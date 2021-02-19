@@ -22,7 +22,10 @@ class ProjectCard extends React.Component {
       >
         <>
           <div className="project-text col-9">
-            <div className="project-title">{project.name}</div>
+            <div className="project-title">
+              {project.name}
+              {/* {project.wip ? <span className="wip-marker">(WIP)</span> : <></>} */}
+            </div>
             <div className="project-description">
               {project.description.map((paragraph, index) => {
                 return <p key={"para" + index}>{paragraph}</p>;
@@ -31,8 +34,12 @@ class ProjectCard extends React.Component {
           </div>
 
           <div className="col-3 project-r-col">
-            {"video_url" in project ? <ProjectVideo {...project} /> : <></>}
-            {"image_url" in project ? <ProjectImage {...project} /> : <></>}
+            {project.video_urls.map((url) => (
+              <ProjectVideo {...project} video_url={url} key={url} />
+            ))}
+            {project.image_urls.map((url) => (
+              <ProjectImage {...project} image_url={url} key={url} />
+            ))}
             {project.github_public ? <CommitGraphBox {...project} /> : <></>}
           </div>
 

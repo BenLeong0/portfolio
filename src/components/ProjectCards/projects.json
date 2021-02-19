@@ -1,12 +1,34 @@
 {
   "items": [
     {
+      "name": "Bitter",
+      "id": "project-bitter",
+      "github_owner": "BenLeong0",
+      "github_repo": "bitter_react",
+      "github_public": true,
+      "wip": true,
+      "video_urls": [],
+      "image_urls": ["project-bitter-img1.png","project-bitter-img2.png"],
+      "description": [
+        "As an exercise in full stack development, I have been working on a simplified Twitter clone, with a working title Bitter (a portmanteau of Ben and Twitter, as well as a coding aspect in Bit). The front-end is being written in JavaScript using ReactJS, the back-end is running Django with django-rest-framwork, and I am hosting my own PostgreSQL database on a Raspberry Pi.",
+        "This has been my first practical experience with full stack development, and I have already learnt a lot from setting up all the components. The next step will be to implement an authentication and login system, and connect the components up through the RESTful API back-end such that content can be delivered based on the user.",
+        "More specific features I plan to add include individual pages for each user and post, including ways to view interactions (likes/'retweets' and followers/followees), custom profile pictures and banners, and for the 'Suggested Users' menu to suggest a random selection of other users."
+      ],
+      "links": [
+        "https://benleong0.github.io/bitter_react/",
+        "https://github.com/BenLeong0/bitter_react"
+      ],
+      "tags": ["JavaScript", "React", "Python", "Django", "PostgreSQL", "API", "Fullstack"]
+    },
+    {
       "name": "Algorithms Visualisations",
       "id": "project-algorithmsvisualisations",
       "github_owner": "BenLeong0",
       "github_repo": "AlgorithmVisualisations",
       "github_public": true,
-      "video_url": "project-algorithmsvisualisations-vid.webm",
+      "wip": false,
+      "video_urls": ["project-algorithmsvisualisations-vid.webm"],
+      "image_urls": [],
       "description": [
         "In my final year of university I took a computer science module titled Algorithms. In this project I coded a number of the algorithms covered in that class (and others) in JavaScript, and built pages using HTML and CSS to create intuitive visualisations of the algorithms (hosted on GitHub pages, linked below).",
         "These include sorting algorithms (eg. merge sort, quick sort, radix sort), an interactive graph searching page (using BFS), a maze generator (using DFS), and a backtracking algorithm to solve Sudoku problems. I found this project beneficial for aiding my understanding of the workings of these common and useful algorithms, as well as a good way to get to grips with JavaScript and its implementation in webpages."
@@ -23,7 +45,9 @@
       "github_owner": "BenLeong0",
       "github_repo": "TileGame",
       "github_public": false,
-      "video_url": "project-tilegame-vid.webm",
+      "wip": true,
+      "video_urls": ["project-tilegame-vid.webm"],
+      "image_urls": [],
       "links": [],
       "description": [
         "I have been developing a mobile puzzle game as part of a team of four, using GitHub to share our code and collaborate. Having coded entirely solo for all my other projects, this project has been very insightful into the differences and challenges that working in a team presents.",
@@ -39,6 +63,9 @@
       "github_owner": "BenLeong0",
       "github_repo": "portfolio",
       "github_public": true,
+      "wip": true,
+      "video_urls": [],
+      "image_urls": [],
       "links": [
         "https://benleong0.github.io/portfolio/",
         "https://github.com/BenLeong0/portfolio"
@@ -55,7 +82,9 @@
       "github_owner": "BenLeong0",
       "github_repo": "ProjectEuler",
       "github_public": true,
-      "image_url": "project-projecteuler-img.png",
+      "wip": false,
+      "video_urls": [],
+      "image_urls": ["project-projecteuler-img.png"],
       "description": [
         "Project Euler is a series of mathematics-programming hybrid problems, hosted at ProjectEuler.net. Most problems take the form of a mathematical idea and toy cases, and require the answerer to use programming to extend it to a further degree.",
         "This was one of my first projects, and I used it to develop fundamental programming and Python skills. I began working through them in July 2020 (before I used GitHub)."
@@ -73,7 +102,9 @@
       "github_owner": "BenLeong0",
       "github_repo": "AnkiPitchAccentImport",
       "github_public": true,
-      "image_url": "project-anki-img.png",
+      "wip": false,
+      "video_urls": [],
+      "image_urls": ["project-anki-img.png"],
       "links": [
         "https://github.com/BenLeong0/AnkiPitchAccentImport",
         "https://ankiweb.net/about",
@@ -92,7 +123,9 @@
       "github_owner": "BenLeong0",
       "github_repo": "AdventOfCode",
       "github_public": true,
-      "image_url": "project-adventofcode-img.png",
+      "wip": false,
+      "video_urls": [],
+      "image_urls": ["project-adventofcode-img.png"],
       "links": [
         "https://github.com/BenLeong0/AdventOfCode",
         "https://adventofcode.com/"
