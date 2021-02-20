@@ -24,6 +24,7 @@
 
 #p-info-photo img {
   border-radius: 50%;
+  max-width: 105px;
   width: 100%;
 }
 
