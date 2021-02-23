@@ -1,0 +1,32 @@
+nav {
+  width: 100%;
+  background-color: #1b242f;
+  border-bottom: 3px solid #04c2c9;
+  padding: 15px 0;
+}
+
+.link-wrap {
+  width: calc(100% - 30px);
+  height: 20px;
+  margin-left: 30px;
+}
+
+.nav-link {
+  float: left;
+  margin-left: 80px;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: white;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+nav .active,
+.nav-link:hover {
+  color: #e31b6d;
+}
+
+nav.fixed {
+  animation: popDown 0.5s;
+}

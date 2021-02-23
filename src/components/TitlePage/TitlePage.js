@@ -1,4 +1,5 @@
 import React from "react";
+import Sticky from "react-sticky-el";
 import "./TitlePage.css";
 
 import TitleContent from "./TitleContent";
@@ -8,7 +9,9 @@ const TitlePage = (props) => {
   return (
     <section id="home">
       <TitleContent />
-      <NavigationBar />
+      <Sticky>
+        <NavigationBar />
+      </Sticky>
     </section>
   );
 };
