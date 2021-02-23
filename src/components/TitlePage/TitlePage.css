@@ -1,0 +1,40 @@
+.title-page {
+  background-color: grey;
+  height: calc(100vh);
+  background: url("mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title-welcome {
+  color: black;
+  font-size: 40px;
+  font-family: "raleway";
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.title-name {
+  color: crimson;
+}
+
+.title-content svg {
+  margin-top: 20px;
+  width: 48px;
+  cursor: pointer;
+  fill: rgb(255, 255, 255, 0.7);
+  transition: fill 0.1s;
+}
+
+.title-content svg:hover {
+  fill: white;
+}
