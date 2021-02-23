@@ -11,7 +11,7 @@
       "image_urls": ["project-bitter-img1.png","project-bitter-img2.png"],
       "description": [
         "As an exercise in full stack development, I have been working on a simplified Twitter clone, with a working title Bitter (a portmanteau of Ben and Twitter, as well as a coding aspect in Bit). The front-end is being written in JavaScript using ReactJS, the back-end is running Django with django-rest-framwork, and I am hosting my own PostgreSQL database on a Raspberry Pi.",
-        "This has been my first practical experience with full stack development, and I have already learnt a lot from setting up all the components. The next step will be to implement an authentication and login system, and connect the components up through the RESTful API back-end such that content can be delivered based on the user.",
+        "This has been my first practical experience with full stack development, and I have already learnt a lot from setting up all the components. The next steps will be to implement an authentication and login system, and connect the components up through the RESTful API back-end such that content can be delivered based on the user.",
         "More specific features I plan to add include individual pages for each user and post, including ways to view interactions (likes/'retweets' and followers/followees), custom profile pictures and banners, and for the 'Suggested Users' menu to suggest a random selection of other users."
       ],
       "links": [
