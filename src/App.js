@@ -1,15 +1,18 @@
 import "./App.css";
-import "./components/ProjectCards/ProjectCards.css";
-import HeadingCard from "./components/HeadingCard/HeadingCard";
-import ProjectCard from "./components/ProjectCards/ProjectCard";
 import { React, useEffect } from "react";
+
+import TitlePage from "./components/TitlePage/TitlePage";
 
 function App() {
   useEffect(() => {
     document.title = "Ben Leong - Portfolio";
   }, []);
 
-  return <div className="App">yo</div>;
+  return (
+    <div className="App">
+      <TitlePage />
+    </div>
+  );
 }
 
 export default App;
