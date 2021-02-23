@@ -18,7 +18,7 @@
 
 body {
   /* background-image: url("mountains.jpg"); */
-  background-color: #1b2435;
+  background-color: white;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -27,12 +27,6 @@ body {
 
 .App {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  max-width: 800px;
-  margin: auto;
-  background-color: rgb(255, 255, 255, 0.1);
-  overflow: hidden;
 }
 
 /* For mobile phones: */
