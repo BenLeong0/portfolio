@@ -4,26 +4,27 @@
 
 ### Title page
 
-- [ ] Size of full screen
-- [ ] Background
-- [ ] Welcome message
-- [ ] Button to scroll past
-- [ ] Animated background eventually
-- [ ] Persistent navigation bar (template for now)
+- [x] Take up entire screen (height: 100%)
+- [x] Background
+- [x] Welcome message
+- [x] Button to scroll past
+- [x] Navigation bar
+  - [ ] Sticky
+  - [ ] Hamburger menu for mobile
+  - [ ] Active based on scroll position
 
 ### Shared components
 
-- [ ] Header formatting
-- [ ] Background full width
-- [ ] Content max 1200px
+- [x] Header formatting
+- [x] Background full width
+- [x] Content max 1200px
 
 ### About page
 
-- [ ] Title
-  - [ ] Underline
+- [x] Title + underline
 - [ ] Left content
-  - [ ] Profile picture
-  - [ ] Introduction
+  - [x] Profile picture
+  - [x] Introduction
   - [ ] Links
 - [ ] Right content
   - [ ] Progress bars
@@ -47,7 +48,8 @@
 
 ### Post production
 
-- [ ] Navigation bar that works
+- [ ] Make title button work
+- [ ] Animated background (canvas)
 
 ### Project pages
 
@@ -62,4 +64,6 @@
 
 ### Add modules
 
+- [ ] react-on-screen (for checking if nav bar is visible)
 - [ ] react-router (for individual project pages)
+- [ ] react-awesome-reveal (components fade in)

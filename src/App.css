@@ -15,6 +15,36 @@
   clear: both;
   display: table;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.page-box {
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 0 100px;
+}
+
+section {
+  float: left;
+  width: 100%;
+}
+
+.section-header {
+  font-size: 50px;
+  font-family: raleway;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: #1b242f;
+}
+
+.section-header-bar {
+  height: 4px;
+  background-color: #1b242f;
+  width: 100px;
+  margin: 20px auto 40px;
+}
 
 body {
   background-color: white;
@@ -22,6 +52,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
+  font-family: raleway;
 }
 
 .App {
