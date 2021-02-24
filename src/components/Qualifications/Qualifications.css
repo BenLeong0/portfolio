@@ -10,7 +10,8 @@
 .qualification-box {
   height: 360px;
   margin-bottom: 20px;
-  /* background-color: lightgray; */
+  width: 50%;
+  float: left;
 }
 
 .qualification-logo {
@@ -29,4 +30,11 @@
 
 .qualification-content {
   font-size: 14px;
+}
+
+/* For tablets (+ desktop): */
+@media only screen and (min-width: 900px) {
+  .qualification-box {
+    width: 25%;
+  }
 }

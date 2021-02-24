@@ -4,7 +4,7 @@ const QualificationBox = (props) => {
   const imageUrl = `${process.env.PUBLIC_URL}/qualifications-images/logo-${props.id}.png`;
 
   return (
-    <div className="qualification-box col-3">
+    <div className="qualification-box">
       <div className="qualification-logo">
         <img
           width="120px"

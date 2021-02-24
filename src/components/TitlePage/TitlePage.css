@@ -12,6 +12,7 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  width: 70%;
 }
 
 .title-welcome {
@@ -37,4 +38,11 @@
 
 .title-content svg:hover {
   fill: white;
+}
+
+/* For tablets (+ desktop): */
+@media only screen and (min-width: 900px) {
+  .title-content {
+    width: auto;
+  }
 }

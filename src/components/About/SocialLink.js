@@ -6,12 +6,7 @@ const SocialLink = (props) => {
   const path = props.link.path;
 
   return (
-    <a
-      href={url}
-      className="col-3 social-link"
-      target="_blank"
-      rel="noreferrer"
-    >
+    <a href={url} className="social-link" target="_blank" rel="noreferrer">
       <svg
         width="32"
         height="32"

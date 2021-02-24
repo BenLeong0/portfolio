@@ -54,24 +54,25 @@
   - onScroll check window.scrollY and compare
 - [ ] Animated background (canvas)
 
+### Mobile
+
+- [ ] Hamburger menu for navbar
+- [x] Resize about page (1 col)
+  - [x] Two columns for social links
+- [x] Resize projects (1 col)
+- [x] Resize qualifications (2 cols)
+
 ### Project pages
 
 - [ ] Link to home page
 - [ ] Title
 - [ ] Image album
 - [ ] Description
+- [ ] Link to project (if online)
 - [ ] Technologies
 - [ ] Timeline?
 - [ ] Git commits?
 - [ ] Links from home page
-
-### Mobile
-
-- [ ] Hamburger menu for navbar
-- [ ] Resize about page (1 col)
-  - [ ] Two columns for social links
-- [ ] Resize projects (square, 2 columns?)
-- [ ] Resize qualifications (2 cols?)
 
 ### Add modules
 
