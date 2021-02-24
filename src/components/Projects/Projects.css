@@ -75,6 +75,11 @@
   .project-tile {
     width: 50%;
   }
+
+  /* Centre final tile if odd number */
+  .project-tile:last-child:nth-child(odd) {
+    margin-left: 25%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
