@@ -55,6 +55,12 @@
       "id": "portfolio",
       "intro": "This portfolio itself!",
       "techs": ["JavaScript", "ReactJS"]
+    },
+    {
+      "name": "Pokémon Battle Simulator",
+      "id": "pokemon",
+      "intro": "A simulator for the battling mechanic in the popular game Pokémon.",
+      "techs": ["Python", "Object Oriented Programming"]
     }
   ]
 }

@@ -32,8 +32,7 @@
   font-size: 14px;
 }
 
-/* For tablets (+ desktop): */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
   .skill-box {
     width: 25%;
   }
