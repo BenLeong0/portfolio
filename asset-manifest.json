@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.216bacf6.chunk.css",
-    "main.js": "/portfolio/static/js/main.212cec41.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.212cec41.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.586205a8.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.586205a8.js.map",
-    "static/js/2.437cb6ba.chunk.js": "/portfolio/static/js/2.437cb6ba.chunk.js",
-    "static/js/2.437cb6ba.chunk.js.map": "/portfolio/static/js/2.437cb6ba.chunk.js.map",
-    "static/js/3.f5654d87.chunk.js": "/portfolio/static/js/3.f5654d87.chunk.js",
-    "static/js/3.f5654d87.chunk.js.map": "/portfolio/static/js/3.f5654d87.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6b0fe89f.chunk.css",
+    "main.js": "/portfolio/static/js/main.3892ee88.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3892ee88.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.718d574b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.718d574b.js.map",
+    "static/js/2.8766d3d3.chunk.js": "/portfolio/static/js/2.8766d3d3.chunk.js",
+    "static/js/2.8766d3d3.chunk.js.map": "/portfolio/static/js/2.8766d3d3.chunk.js.map",
+    "static/js/3.0d02d4b9.chunk.js": "/portfolio/static/js/3.0d02d4b9.chunk.js",
+    "static/js/3.0d02d4b9.chunk.js.map": "/portfolio/static/js/3.0d02d4b9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.216bacf6.chunk.css.map": "/portfolio/static/css/main.216bacf6.chunk.css.map",
-    "static/js/2.437cb6ba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.437cb6ba.chunk.js.LICENSE.txt",
-    "static/media/PersonalInfo-PhotoReal.3ce84c7d.png": "/portfolio/static/media/PersonalInfo-PhotoReal.3ce84c7d.png"
+    "static/css/main.6b0fe89f.chunk.css.map": "/portfolio/static/css/main.6b0fe89f.chunk.css.map",
+    "static/js/2.8766d3d3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8766d3d3.chunk.js.LICENSE.txt",
+    "static/media/TitlePage.css": "/portfolio/static/media/mountains.8f47f098.jpg",
+    "static/media/pfp.f7df2996.png": "/portfolio/static/media/pfp.f7df2996.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.586205a8.js",
-    "static/js/2.437cb6ba.chunk.js",
-    "static/css/main.216bacf6.chunk.css",
-    "static/js/main.212cec41.chunk.js"
+    "static/js/runtime-main.718d574b.js",
+    "static/js/2.8766d3d3.chunk.js",
+    "static/css/main.6b0fe89f.chunk.css",
+    "static/js/main.3892ee88.chunk.js"
   ]
 }
