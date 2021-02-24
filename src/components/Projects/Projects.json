@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "name": "Tilegame",
+      "id": "tilegame",
+      "intro": "A mobile puzzle game, developed as part of a team of four.",
+      "techs": ["Python", "GitHub"]
+    },
+    {
+      "name": "Sudoku solver",
+      "id": "sudoku",
+      "intro": "A sudoku puzzle solver, using a recursive backtracking algorithm.",
+      "techs": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "name": "Bitter",
+      "id": "bitter",
+      "intro": "A simple Twitter clone. Fullstack application with a RESTful API and PostgreSQL database",
+      "techs": [
+        "Python",
+        "Django",
+        "JavaScript",
+        "ReactJS",
+        "PostgreSQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Sorting algorithms",
+      "id": "sorting",
+      "intro": "Visualisations for common sorting algorithms such as Quicksort, Merge sort and Heapsort.",
+      "techs": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "name": "Anki Pitch Accents",
+      "id": "anki",
+      "intro": "An addon for the flashcard software Anki that generates pitch accent diagrams for Japanese words.",
+      "techs": ["Python", "Anki", "SVG"]
+    },
+    {
+      "name": "Graph traversals",
+      "id": "bfsdfs",
+      "intro": "Visualisations for DFS (generating mazes) and BFS (finding a shortest path).",
+      "techs": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "name": "Project Euler and Advent of Code",
+      "id": "euleraoc",
+      "intro": "Algorithm and maths based problems.",
+      "techs": ["Python", "Algorithms", "Maths"]
+    },
+    {
+      "name": "Portfolio",
+      "id": "portfolio",
+      "intro": "This portfolio itself!",
+      "techs": ["JavaScript", "ReactJS"]
+    }
+  ]
+}

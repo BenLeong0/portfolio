@@ -26,7 +26,3 @@ nav .active,
 .nav-link:hover {
   color: #e31b6d;
 }
-
-nav.fixed {
-  animation: popDown 0.5s;
-}

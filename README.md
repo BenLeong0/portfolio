@@ -22,34 +22,35 @@
 ### About page
 
 - [x] Title + underline
-- [ ] Left content
+- [x] Left content
   - [x] Profile picture
   - [x] Introduction
-  - [ ] Links
-- [ ] Right content
-  - [ ] Progress bars
+  - [x] Links
+- [x] Right content
+  - [x] Progress bars
 
 ### Projects
 
-- [ ] Title + underline
-- [ ] Project images
-- [ ] Info on hover
-  - [ ] Project name
-  - [ ] Technologies
-  - [ ] Short intro
+- [x] Title + underline
+- [x] Project images
+- [x] Info on hover
+  - [x] Project name
+  - [x] Technologies
+  - [x] Short intro
 
 ### Skill and qualifications
 
-- [ ] Title + underline
-- [ ] Cards
-  - [ ] Logo
-  - [ ] Title
-  - [ ] Info
+- [x] Title + underline
+- [x] Cards
+  - [x] Logo
+  - [x] Title
+  - [x] Info
 
 ### Post production
 
 - [ ] Make title button work
 - [ ] Animated background (canvas)
+- [ ] Project fade over nav bar doesn't work atm
 
 ### Project pages
 
@@ -60,7 +61,7 @@
 - [ ] Technologies
 - [ ] Timeline?
 - [ ] Git commits?
-- [ ] Link from home page
+- [ ] Links from home page
 
 ### Add modules
 
