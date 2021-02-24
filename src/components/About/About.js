@@ -3,6 +3,7 @@ import "./About.css";
 import SectionTitle from "../Shared/SectionTitle";
 
 import Introduction from "./Introduction";
+import SkillBars from "./SkillBars";
 
 const About = (props) => {
   return (
@@ -10,7 +11,7 @@ const About = (props) => {
       <div className="about-content page-box">
         <SectionTitle title="about" />
         <Introduction />
-        <div className="col-6">yo</div>
+        <SkillBars />
       </div>
     </section>
   );

@@ -5,19 +5,8 @@ import pfp from "./pfp.png";
 import SocialLink from "./SocialLink";
 
 const Introduction = (props) => {
-  class linkInfo {
-    constructor(name, image) {
-      this.name = name;
-      this.image = image;
-    }
-  }
-
-  const socialLinks = [
-    new linkInfo("LinkedIn", "logo-linkedin.png"),
-    new linkInfo("GitHub", "logo-github.png"),
-    new linkInfo("Email", "logo-email.png"),
-    new linkInfo("CV", "logo-cv.png"),
-  ];
+  // BEWARE url for CV
+  const socialLinks = require("./SocialLinks.json").items;
 
   return (
     <div className="col-6 introduction">
@@ -31,7 +20,7 @@ const Introduction = (props) => {
         Python and JavaScript to work on personal projects.
       </div>
       {socialLinks.map((link) => (
-        <SocialLink link={link} key={link.name} />
+        <SocialLink link={link} key={link.id} />
       ))}
     </div>
   );
