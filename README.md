@@ -57,10 +57,11 @@
 ### Mobile
 
 - [ ] Hamburger menu for navbar
-- [x] Resize about page (1 col)
+- [x] Resize about page (1 column)
   - [x] Two columns for social links
-- [x] Resize projects (1 col)
-- [x] Resize qualifications (2 cols)
+- [x] Resize projects (1 column)
+- [x] Resize qualifications (2 columns)
+- [x] Tablet sizing for projects (2 columns)
 
 ### Project pages
 

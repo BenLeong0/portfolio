@@ -2,6 +2,10 @@
   background-color: white;
 }
 
+.introduction {
+  margin-bottom: 20px;
+}
+
 .about-pfp {
   margin: auto;
   width: 200px;
@@ -108,5 +112,9 @@
 
   .skillbar-percent {
     font-size: 14px;
+  }
+
+  .introduction {
+    margin-bottom: 0;
   }
 }

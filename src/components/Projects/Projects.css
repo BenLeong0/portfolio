@@ -3,7 +3,8 @@
 }
 
 .project-list {
-  margin: 20px 15px;
+  margin: 20px auto;
+  max-width: 768px;
 }
 
 .project-tile {
@@ -11,7 +12,7 @@
   background-color: lightskyblue;
   background-size: cover;
   background-position: center;
-  width: 390px;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -68,4 +69,20 @@
   text-transform: uppercase;
   width: 50%;
   margin: 5px auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-tile {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .project-tile {
+    width: 33.3%;
+  }
+
+  .project-list {
+    max-width: 100%;
+  }
 }
