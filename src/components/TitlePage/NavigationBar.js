@@ -11,13 +11,11 @@ const NavigationBar = (props) => {
     }
   }
 
-  const [active, setActive] = useState("HOME");
-
   const navLinks = [
     new NavLink("HOME", "home"),
     new NavLink("ABOUT", "about"),
     new NavLink("PROJECTS", "projects"),
-    new NavLink("SKILLS AND QUALIFICATIONS", "qualifications"),
+    new NavLink("KEY SKILLS", "skills"),
   ];
 
   return (
@@ -28,7 +26,6 @@ const NavigationBar = (props) => {
             link={link}
             key={link.text}
             active={props.currentComponent}
-            setActive={setActive}
           />
         ))}
       </div>

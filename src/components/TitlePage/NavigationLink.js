@@ -6,7 +6,6 @@ const NavigationLink = (props) => {
 
   const handleClick = () => {
     let target = document.querySelector(`#${sectionName}`);
-    props.setActive(sectionName);
     target.scrollIntoView({ behavior: "smooth" });
   };
 

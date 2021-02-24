@@ -1,40 +1,40 @@
-#qualifications {
+#skills {
   background-color: white;
 }
 
-.qualifications-wrap {
+.skills-wrap {
   max-width: 1000px;
   margin: auto;
 }
 
-.qualification-box {
+.skill-box {
   height: 360px;
   margin-bottom: 20px;
   width: 50%;
   float: left;
 }
 
-.qualification-logo {
+.skill-logo {
   width: 120px;
   margin: 20px auto;
 }
 
-.qualification-text {
+.skill-text {
   width: 80%;
   margin: auto;
   text-align: center;
 }
 
-.qualification-title {
+.skill-title {
 }
 
-.qualification-content {
+.skill-content {
   font-size: 14px;
 }
 
 /* For tablets (+ desktop): */
 @media only screen and (min-width: 900px) {
-  .qualification-box {
+  .skill-box {
     width: 25%;
   }
 }

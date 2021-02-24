@@ -5,7 +5,7 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import TitlePage from "./components/TitlePage/TitlePage";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Qualifications from "./components/Qualifications/Qualifications";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   const [componentScrollHeights, setComponentScrollHeights] = useState([
@@ -17,9 +17,9 @@ function App() {
   useEffect(() => {
     document.title = "Ben Leong - Portfolio";
     setComponentScrollHeights([
-      document.getElementById("about").offsetTop - 100,
-      document.getElementById("projects").offsetTop - 100,
-      document.getElementById("qualifications").offsetTop - 100,
+      document.getElementById("about").offsetTop - 130,
+      document.getElementById("projects").offsetTop - 130,
+      document.getElementById("skills").offsetTop - 130,
     ]);
   }, []);
 
@@ -34,7 +34,7 @@ function App() {
       } else if (-currPos.y < componentScrollHeights[2]) {
         setCurrentComponent("projects");
       } else {
-        setCurrentComponent("qualifications");
+        setCurrentComponent("skills");
       }
     },
     [currentComponent]
@@ -45,7 +45,7 @@ function App() {
       <TitlePage currentComponent={currentComponent} />
       <About />
       <Projects />
-      <Qualifications />
+      <Skills />
     </div>
   );
 }
