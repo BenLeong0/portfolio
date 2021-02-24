@@ -35,7 +35,7 @@
     {
       "name": "Anki Pitch Accents",
       "id": "anki",
-      "intro": "An addon for the flashcard software Anki that generates pitch accent diagrams for Japanese words.",
+      "intro": "A flashcard modifying program for Japanese.",
       "techs": ["Python", "Anki", "SVG"]
     },
     {

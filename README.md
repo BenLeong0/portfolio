@@ -9,9 +9,7 @@
 - [x] Welcome message
 - [x] Button to scroll past
 - [x] Navigation bar
-  - [ ] Sticky
-  - [ ] Hamburger menu for mobile
-  - [ ] Active based on scroll position
+  - [x] Sticky
 
 ### Shared components
 
@@ -48,9 +46,13 @@
 
 ### Post production
 
-- [ ] Make title button work
+- [x] Fix project tile fade
+- [x] Change project-link to display:block and organise
+- [x] Make title button work
+- [x] Active based on scroll position
+  - Save element.offsetTop for each component
+  - onScroll check window.scrollY and compare
 - [ ] Animated background (canvas)
-- [ ] Project fade over nav bar doesn't work atm
 
 ### Project pages
 
@@ -62,6 +64,14 @@
 - [ ] Timeline?
 - [ ] Git commits?
 - [ ] Links from home page
+
+### Mobile
+
+- [ ] Hamburger menu for navbar
+- [ ] Resize about page (1 col)
+  - [ ] Two columns for social links
+- [ ] Resize projects (square, 2 columns?)
+- [ ] Resize qualifications (2 cols?)
 
 ### Add modules
 

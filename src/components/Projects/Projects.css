@@ -17,12 +17,25 @@
 
 .project-info {
   color: white;
+  opacity: 0;
   transition: opacity 0.3s;
   background-color: rgb(0, 0, 0, 0.7);
   height: 100%;
   text-align: center;
-  /* position: relative; */
   padding: 0 10%;
+  z-index: 0;
+}
+
+.project-info:hover {
+  opacity: 1;
+}
+
+.sticky {
+  z-index: 99;
+}
+
+.project-content {
+  height: 75%;
 }
 
 .project-title {
@@ -50,12 +63,9 @@
   font-size: 18px;
   border: 2px solid white;
   display: block;
-  position: absolute;
-  bottom: 10px;
   padding: 8px;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   cursor: pointer;
   text-transform: uppercase;
+  width: 50%;
+  margin: 5px auto;
 }
