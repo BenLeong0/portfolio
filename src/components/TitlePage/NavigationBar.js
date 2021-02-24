@@ -27,7 +27,7 @@ const NavigationBar = (props) => {
           <NavigationLink
             link={link}
             key={link.text}
-            active={active}
+            active={props.currentComponent}
             setActive={setActive}
           />
         ))}

@@ -13,7 +13,7 @@ const Qualifications = (props) => {
         <SectionTitle title="qualifications and skills" />
         <div className="qualifications-wrap">
           {qualifications.map((qualification) => (
-            <QualificationBox {...qualification} />
+            <QualificationBox {...qualification} key={qualification.title} />
           ))}
         </div>
       </div>

@@ -10,7 +10,7 @@ const TitlePage = (props) => {
     <section id="home">
       <TitleContent />
       <Sticky>
-        <NavigationBar />
+        <NavigationBar currentComponent={props.currentComponent} />
       </Sticky>
     </section>
   );
