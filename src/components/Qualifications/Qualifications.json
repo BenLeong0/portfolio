@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "Maths",
+      "id": "maths",
+      "text": "I graduated with a first class degree in mathematics from the University of Warwick. I learnt many valuable lessons and developed a strong ability to understand new systems and solve complex problems."
+    },
+    {
+      "title": "Python",
+      "id": "python",
+      "text": "Python is the language I am most comfortable with, as I have worked on a number of personal projects (as seen above), and believe I have developed a strong base understanding of the language."
+    },
+    {
+      "title": "Algorithms",
+      "id": "algorithms",
+      "text": "Much of my study has been based in developing and assessing algorithms, which stems from the related computer science modules I took at university."
+    },
+    {
+      "title": "Japanese",
+      "id": "japanese",
+      "text": "I have been learning Japanese for over 5 years now, and spent a year abroad at the University of Tokyo from 2018-2019. During that time I passed level N2 of the Japanese Language Proficiency Test (advanced)."
+    },
+    {
+      "title": "Team working",
+      "id": "teamwork",
+      "text": "During my year abroad I was involved in over a dozen group-based projects, which improved my ability to work cooperatively as a part of team and effectively resolve conflicts that arise between members."
+    },
+    {
+      "title": "JS and React",
+      "id": "reactjs",
+      "text": "I picked up JavaScript since I already knew HTML/CSS, and wanted to easily create GUI interfaces for applications I wrote. Since then I have also begun learning ReactJS, which I used to create this portfolio."
+    },
+    {
+      "title": "Problem solving",
+      "id": "problemsolving",
+      "text": "All the work I did during my degree was underpinned by my ability to solve complex problems, which as a result has been constantly developing. I have found this transfers to programming very naturally."
+    },
+    {
+      "title": "Learning skills",
+      "id": "skills",
+      "text": "I am passionate about learning new skills and love the feeling of improvement. I have passed level 2 of the HSK Mandarin exam, reached grade 8 in both piano and flute (merit), and was ranked 29th in Japan for Super Smash Brothers Melee in 2019."
+    }
+  ]
+}
