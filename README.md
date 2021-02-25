@@ -70,16 +70,18 @@
   - [x] Top right x
 - [x] Shade out background
 - [x] Title
-- [ ] Images
+- [x] Images
 - [x] Description
-- [ ] Links
-- [ ] Technologies
-- [ ] Timeline?
-- [ ] Git commits?
-- [ ] Mobile formatting
+- [x] Links
+- [x] Technologies
+- [x] Mobile formatting
 - [ ] Tablet formatting?
 
 ### Add modules
 
-- [ ] react-router (for individual project pages)
-- [ ] react-awesome-reveal (components fade in)
+~~- [ ] react-router (for individual project pages)~~
+
+- [x] react-awesome-reveal (components fade in)
+  - [x] Fade in each components
+  - [x] Cascade fade in projects
+  - [x] Cascade fade in skills

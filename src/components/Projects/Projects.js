@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import SectionTitle from "../Shared/SectionTitle";
 import "./Projects.css";
+import { Fade } from "react-awesome-reveal";
 
 import ProjectTile from "./ProjectTile";
 import ProjectPopup from "./ProjectPopup";
@@ -27,18 +28,28 @@ const Projects = (props) => {
 
   return (
     <section id="projects">
-      <div className="projects-content page-box">
-        <SectionTitle title="projects" />
-        <div className="project-list">
-          {projects.map((project) => (
-            <ProjectTile
-              project={project}
-              createPopup={createPopup}
-              key={project.name}
-            />
-          ))}
+      <Fade direction="up" triggerOnce="true" fraction="0.4">
+        <div className="projects-content page-box">
+          <SectionTitle title="projects" />
+          <div className="project-list">
+            <Fade
+              direction="up"
+              triggerOnce="true"
+              fraction="0.4"
+              cascade="true"
+              damping="0.1"
+            >
+              {projects.map((project) => (
+                <ProjectTile
+                  project={project}
+                  createPopup={createPopup}
+                  key={project.name}
+                />
+              ))}
+            </Fade>
+          </div>
         </div>
-      </div>
+      </Fade>
       <ProjectPopup
         project={currProject}
         popupDisplay={popupDisplay}
