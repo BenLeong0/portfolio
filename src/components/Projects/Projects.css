@@ -32,7 +32,7 @@
 }
 
 .sticky {
-  z-index: 99;
+  z-index: 5;
 }
 
 .project-content {
@@ -85,6 +85,10 @@
 @media only screen and (min-width: 1200px) {
   .project-tile {
     width: 33.3%;
+  }
+
+  .project-tile:last-child:nth-child(odd) {
+    margin-left: 0;
   }
 
   .project-list {

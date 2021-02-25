@@ -1,21 +1,38 @@
 {
   "items": [
     {
-      "name": "Tilegame",
+      "name": "Tilegame (WIP)",
       "id": "tilegame",
       "intro": "A mobile puzzle game, developed as part of a team of four.",
-      "techs": ["Python", "GitHub"]
+      "description": [
+        "Tilegame (working title) is a mobile puzzle game, wherein players have to traverse a grid to reach a goal tile, passing through every active tile on the way. The level layouts correspond to colourful pixel art, with the idea being that completed a level will be similar to colouring in the art.",
+        "We have been developing the game as a team of four, using GitHub to collaborate. Having coded entirely solo for all my other projects, this project has been very insightful into the differences and challenges that working in a team presents.",
+        "GitHub has been instrumental in our work so far, not only as a place to collectively host our code where we can easily update and pull from, but also to allow us to organise our work (through branches and the Projects feature), as well as identify individual changes we have made to assist us with bug-fixing."
+      ],
+      "links": [],
+      "techs": ["Python", "GitHub", "Git"]
     },
     {
-      "name": "Sudoku solver",
+      "name": "Sudoku Solver",
       "id": "sudoku",
       "intro": "A sudoku puzzle solver, using a recursive backtracking algorithm.",
-      "techs": ["JavaScript", "HTML", "CSS"]
+      "description": ["what it does", "how does it work"],
+      "links": [
+        "https://benleong0.github.io/AlgorithmVisualisations/sudoku/sudoku.html",
+        "https://github.com/BenLeong0/AlgorithmVisualisations"
+      ],
+      "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
     {
-      "name": "Bitter",
+      "name": "Bitter (WIP)",
       "id": "bitter",
       "intro": "A simple Twitter clone. Fullstack application with a RESTful API and PostgreSQL database",
+      "description": [
+        "As an exercise in full stack development, I have been working on a simplified Twitter clone, with a working title Bitter (a portmanteau of Ben and Twitter, as well as a coding aspect in Bit). The front-end is being written in JavaScript using ReactJS, the back-end is running Django with django-rest-framwork, and I am hosting my own PostgreSQL database on a Raspberry Pi.",
+        "This has been my first practical experience with full stack development, and I have already learnt a lot from setting up all the components. The next step will be to implement an authentication and login system, and connect the components up through the RESTful API back-end such that content can be delivered based on the user.",
+        "More specific features I plan to add include individual pages for each user and post, including ways to view interactions (likes/'retweets' and followers/followees), custom profile pictures and banners, and for the 'Suggested Users' menu to suggest a random selection of other users."
+      ],
+      "links": ["https://github.com/BenLeong0/bitter_react"],
       "techs": [
         "Python",
         "Django",
@@ -27,39 +44,70 @@
       ]
     },
     {
-      "name": "Sorting algorithms",
+      "name": "Sorting Algorithms",
       "id": "sorting",
       "intro": "Visualisations for common sorting algorithms such as Quicksort, Merge sort and Heapsort.",
-      "techs": ["JavaScript", "HTML", "CSS"]
+      "description": ["what it is", "uni background", "features"],
+      "links": [
+        "https://benleong0.github.io/AlgorithmVisualisations/sorting/sorting.html",
+        "https://github.com/BenLeong0/AlgorithmVisualisations"
+      ],
+      "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
     {
       "name": "Anki Pitch Accents",
       "id": "anki",
       "intro": "A flashcard modifying program for Japanese.",
+      "description": ["what is it", "why made"],
+      "links": [
+        "https://github.com/BenLeong0/AnkiPitchAccentImport",
+        "https://ankiweb.net/about",
+        "https://github.com/IllDepence/anki_add_pitch_plugin"
+      ],
       "techs": ["Python", "Anki", "SVG"]
     },
     {
-      "name": "Graph traversals",
+      "name": "Graph Traversals",
       "id": "bfsdfs",
       "intro": "Visualisations for DFS (generating mazes) and BFS (finding a shortest path).",
-      "techs": ["JavaScript", "HTML", "CSS"]
+      "description": [""],
+      "links": [
+        "https://benleong0.github.io/AlgorithmVisualisations/maze/maze.html",
+        "https://benleong0.github.io/AlgorithmVisualisations/pathfind/pathfind.html",
+        "https://github.com/BenLeong0/AlgorithmVisualisations"
+      ],
+      "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
     {
       "name": "Project Euler and Advent of Code",
       "id": "euleraoc",
       "intro": "Algorithm and maths based problems.",
+      "description": [""],
+      "links": [
+        "https://github.com/BenLeong0/ProjectEuler",
+        "https://github.com/BenLeong0/AdventOfCode",
+        "https://projecteuler.net/",
+        "https://adventofcode.com/"
+      ],
       "techs": ["Python", "Algorithms", "Maths"]
     },
     {
       "name": "Portfolio",
       "id": "portfolio",
-      "intro": "This portfolio itself!",
-      "techs": ["JavaScript", "ReactJS"]
+      "intro": "This portfolio itself, built with ReactJS using create-react-app.",
+      "description": [""],
+      "links": [
+        "https://benleong0.github.io/portfolio/",
+        "https://github.com/BenLeong0/portfolio/tree/remake"
+      ],
+      "techs": ["JavaScript", "ReactJS", "HTML", "CSS"]
     },
     {
       "name": "Pokémon Battle Simulator",
       "id": "pokemon",
       "intro": "A simulator for the battling mechanic in the popular game Pokémon.",
+      "description": [""],
+      "links": ["https://github.com/BenLeong0/PokemonBattleSimulator"],
       "techs": ["Python", "Object Oriented Programming"]
     }
   ]
