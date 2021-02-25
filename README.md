@@ -63,20 +63,23 @@
 - [x] Resize qualifications (2 columns)
 - [x] Tablet sizing for projects (2 columns)
 
-### Project pages
+### Project popup windows
 
-- [ ] Link to home page
-- [ ] Title
+- [x] Method for closing window
+  - [x] Click outside the window
+  - [x] Top right x
+- [x] Shade out background
+- [x] Title
 - [ ] Image album
 - [ ] Description
-- [ ] Link to project (if online)
+- [ ] Links
 - [ ] Technologies
 - [ ] Timeline?
 - [ ] Git commits?
-- [ ] Links from home page
+- [ ] Mobile formatting
+- [ ] Tablet formatting?
 
 ### Add modules
 
-- [ ] react-on-screen (for checking if nav bar is visible)
 - [ ] react-router (for individual project pages)
 - [ ] react-awesome-reveal (components fade in)
