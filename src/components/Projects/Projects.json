@@ -10,16 +10,28 @@
         "GitHub has been instrumental in our work so far, not only as a place to collectively host our code where we can easily update and pull from, but also to allow us to organise our work (through branches and the Projects feature), as well as identify individual changes we have made to assist us with bug-fixing."
       ],
       "links": [],
+      "media": [
+        { "type": "video", "filename": "tilegame-demo.webm" },
+        { "type": "video", "filename": "tilegame-portals.webm" }
+      ],
       "techs": ["Python", "GitHub", "Git"]
     },
     {
       "name": "Sudoku Solver",
       "id": "sudoku",
       "intro": "A sudoku puzzle solver, using a recursive backtracking algorithm.",
-      "description": ["what it does", "how does it work"],
+      "description": [
+        "This application solves Sudoku problems by implementing a recursive backtracking algorithm, by testing solutions then abandoning them when a problem arises in a DFS-style manner.",
+        "Starting puzzles can either be inputted by the user, or generated randomly from a pregenerated list of 10000 puzzles. It can also be used as a game site, where users can generate a puzzle and attempt to solve it, and the application can be used to identify problems in their solution."
+      ],
       "links": [
         "https://benleong0.github.io/AlgorithmVisualisations/sudoku/sudoku.html",
         "https://github.com/BenLeong0/AlgorithmVisualisations"
+      ],
+      "media": [
+        { "type": "image", "filename": "sudoku-homepage.png" },
+        { "type": "video", "filename": "sudoku-solving.webm" },
+        { "type": "image", "filename": "sudoku-errors.png" }
       ],
       "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
@@ -28,11 +40,17 @@
       "id": "bitter",
       "intro": "A simple Twitter clone. Fullstack application with a RESTful API and PostgreSQL database",
       "description": [
-        "As an exercise in full stack development, I have been working on a simplified Twitter clone, with a working title Bitter (a portmanteau of Ben and Twitter, as well as a coding aspect in Bit). The front-end is being written in JavaScript using ReactJS, the back-end is running Django with django-rest-framwork, and I am hosting my own PostgreSQL database on a Raspberry Pi.",
-        "This has been my first practical experience with full stack development, and I have already learnt a lot from setting up all the components. The next step will be to implement an authentication and login system, and connect the components up through the RESTful API back-end such that content can be delivered based on the user.",
-        "More specific features I plan to add include individual pages for each user and post, including ways to view interactions (likes/'retweets' and followers/followees), custom profile pictures and banners, and for the 'Suggested Users' menu to suggest a random selection of other users."
+        "Bitter is a simplified Twitter clone, with the (working) title coming as a portmanteau of 'Ben' and 'Twitter' (with a coding aspect in bit). A full stack application, the front end is written using ReactJS and the backend using Django, with a PostgreSQL database.",
+        "It includes many of the main core features of twitter, such as creating posts, following users, and having a personalised timeline. Features I plan to implement in the future are interactions (likes, retweets etc) and more user customisation (profile picture etc), but to begin with I will be working on a secure authentication system.",
+        "Being my first practical experience with fullstack development, I learnt a lot from the process about the interactions between components in a system and the challenges of creating these connections."
       ],
       "links": ["https://github.com/BenLeong0/bitter_react"],
+      "media": [
+        { "type": "image", "filename": "bitter-timeline.png" },
+        { "type": "image", "filename": "bitter-userpage.png" },
+        { "type": "image", "filename": "bitter-rightcol.png" },
+        { "type": "image", "filename": "bitter-homepage.png" }
+      ],
       "techs": [
         "Python",
         "Django",
@@ -47,10 +65,20 @@
       "name": "Sorting Algorithms",
       "id": "sorting",
       "intro": "Visualisations for common sorting algorithms such as Quicksort, Merge sort and Heapsort.",
-      "description": ["what it is", "uni background", "features"],
+      "description": [
+        "I believe visualisations are a key tool in understanding how algorithms work, and so I built this website to visualise common sorting algorithms including Quicksort, Merge sort and Heapsort. During my final year at university I covered a computer science module named just 'Algorithms', which covered many of these array sorting methods.",
+        "The algorithms are built up in JavaScript and displayed using HTML and CSS, with bars of differing lengths representing elements of the array being sorted. The size of the array can be altered using a slider and the size of the visualiser adjusts automatically.",
+        "WARNING: It is highly recommended RandomSort is not run with over 10 elements, as it is highly computationally expensive and also essentially never terminates ( O((n+1)!) time complexity )."
+      ],
       "links": [
         "https://benleong0.github.io/AlgorithmVisualisations/sorting/sorting.html",
         "https://github.com/BenLeong0/AlgorithmVisualisations"
+      ],
+      "media": [
+        { "type": "image", "filename": "sorting-homepage.png" },
+        { "type": "video", "filename": "sorting-quicksort.webm" },
+        { "type": "video", "filename": "sorting-mergesort.webm" },
+        { "type": "video", "filename": "sorting-heapsort.webm" }
       ],
       "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
@@ -58,11 +86,18 @@
       "name": "Anki Pitch Accents",
       "id": "anki",
       "intro": "A flashcard modifying program for Japanese.",
-      "description": ["what is it", "why made"],
+      "description": [
+        "One of my main extracurricular activites is learning Japanese - I have been studying for over 5 years now and spent a year abroad at the University of Tokyo, during which I passed the Japanese Language Proficiency Test N2. My main form of studying has always been rote memorisation through flashcards, using the program Anki.",
+        "Recently I have been become interested in the intonation of Japanese words, and as such I developed an addon for Anki to help visualise the pitch accent of my vocabulary, by generating diagrams of the intonation of words I add to my deck. For this I adapted a similar addon (linked below) to read my personal method of encoding the data, and insert the diagrams into flashcards as they are added."
+      ],
       "links": [
         "https://github.com/BenLeong0/AnkiPitchAccentImport",
         "https://ankiweb.net/about",
         "https://github.com/IllDepence/anki_add_pitch_plugin"
+      ],
+      "media": [
+        { "type": "image", "filename": "anki-explanation.png" },
+        { "type": "image", "filename": "anki-mobile.png" }
       ],
       "techs": ["Python", "Anki", "SVG"]
     },
@@ -70,11 +105,19 @@
       "name": "Graph Traversals",
       "id": "bfsdfs",
       "intro": "Visualisations for DFS (generating mazes) and BFS (finding a shortest path).",
-      "description": [""],
+      "description": [
+        "These are visualisations of the common graph traversal algorithms, Depth First Search and Breadth First Search. Both are tile based (corresponding to mathematical grid graphs), and the size of the containers can be modified both horizonally and vertically using the sliders provided.",
+        "The first is 'Maze Generator'. This uses DFS to traverse the entire grid, marking its path and making sure to not revisit any tiles. It chooses a random starting tile, then at every point it randomly chooses a cardinal direction move. When it has no remaining optioning, it will retrace its steps until there are other options, and continue from there. At the end, it chooses a random end point and marks it for the user to try to reach.",
+        "The second visualisation is a 'Shortest Path Finder', and is more interactive. It randomly generates a start and end point, then the user can draw walls on the grid to obstruct the path. The program then finds the shortest path between the two points that avoids all the walls drawn, or notifies the user if there is no such path."
+      ],
       "links": [
         "https://benleong0.github.io/AlgorithmVisualisations/maze/maze.html",
         "https://benleong0.github.io/AlgorithmVisualisations/pathfind/pathfind.html",
         "https://github.com/BenLeong0/AlgorithmVisualisations"
+      ],
+      "media": [
+        { "type": "video", "filename": "dfsbfs-maze.webm" },
+        { "type": "video", "filename": "dfsbfs-pathfinder.webm" }
       ],
       "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
@@ -82,12 +125,19 @@
       "name": "Project Euler and Advent of Code",
       "id": "euleraoc",
       "intro": "Algorithm and maths based problems.",
-      "description": [""],
+      "description": [
+        "Project Euler and Advent of Code are both online algorithm-based coding challenges. Project Euler was one of my first ventures into programming - I did the first few problems in MATLAB, before I started learning Python. The problems all have a maths foundation to them, which was interesting for me coming from a maths background. Most problems take the form of a mathematical idea and toy cases, and require the questionee to use programming to extend it to a further degree.",
+        "Advent of Code is an annual coding challenge, where a new problem is released every day of December leading up to Christmas day. While I didn't attempt to compete for leaderboard placements (mainly due to timezone disparities), I made sure to complete each puzzle within the day. Questions are more computer science-based than the questions from Project Euler, and also follow a Christmas-themed narrative to give backstory to the questions."
+      ],
       "links": [
         "https://github.com/BenLeong0/ProjectEuler",
         "https://github.com/BenLeong0/AdventOfCode",
         "https://projecteuler.net/",
         "https://adventofcode.com/"
+      ],
+      "media": [
+        { "type": "image", "filename": "euleraoc-euler.png" },
+        { "type": "image", "filename": "euleraoc-aoc.png" }
       ],
       "techs": ["Python", "Algorithms", "Maths"]
     },
@@ -95,10 +145,16 @@
       "name": "Portfolio",
       "id": "portfolio",
       "intro": "This portfolio itself, built with ReactJS using create-react-app.",
-      "description": [""],
+      "description": [
+        "This project was written with ReactJS, using create-react-app as a foundation. Recently I have found React to be an intuitive way of building websites and it has been enjoyable learning how to use it. I have also made sure that it is fully responsive, to be accessible on any device."
+      ],
       "links": [
         "https://benleong0.github.io/portfolio/",
         "https://github.com/BenLeong0/portfolio/tree/remake"
+      ],
+      "media": [
+        { "type": "image", "filename": "portfolio-home.png" },
+        { "type": "image", "filename": "portfolio-content.png" }
       ],
       "techs": ["JavaScript", "ReactJS", "HTML", "CSS"]
     },
@@ -106,8 +162,15 @@
       "name": "Pokémon Battle Simulator",
       "id": "pokemon",
       "intro": "A simulator for the battling mechanic in the popular game Pokémon.",
-      "description": [""],
+      "description": [
+        "Inspired by the popular fan-made program Pokémon Showdown, one my first projects was to build a text-based program that simulates battling from the video game Pokémon. Two players can create their teams with any Pokémon up to generation 6 (including moves, level, IVs and EVs), and the program will calculate the stats of each Pokémon.",
+        "The program allows players to choose their move (or switch Pokémon) at each point and correctly calculates the damage dealt at each point. As a beginner project, this gave me a fun introduction to object oriented programming. Fun fact: I wrote a lot of this project on my phone to begin with, during a long car ride."
+      ],
       "links": ["https://github.com/BenLeong0/PokemonBattleSimulator"],
+      "media": [
+        { "type": "image", "filename": "pokemon-sim.png" },
+        { "type": "video", "filename": "pokemon-sim.webm" }
+      ],
       "techs": ["Python", "Object Oriented Programming"]
     }
   ]

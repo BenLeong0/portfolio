@@ -12,6 +12,7 @@ const Projects = (props) => {
     techs: [],
     description: [],
     links: [],
+    media: [],
   });
   const [popupDisplay, setPopupDisplay] = useState("none");
 

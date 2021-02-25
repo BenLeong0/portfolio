@@ -70,8 +70,8 @@
   - [x] Top right x
 - [x] Shade out background
 - [x] Title
-- [ ] Image album
-- [ ] Description
+- [ ] Images
+- [x] Description
 - [ ] Links
 - [ ] Technologies
 - [ ] Timeline?
