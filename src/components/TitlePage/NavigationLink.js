@@ -12,7 +12,6 @@ const NavigationLink = (props) => {
   return (
     <div
       className={`nav-link ${props.active === sectionName ? "active" : ""}`}
-      id="nav-bar"
       onClick={handleClick}
     >
       {text}

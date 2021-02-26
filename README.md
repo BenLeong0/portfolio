@@ -57,7 +57,7 @@
 
 ### Mobile
 
-- [ ] **Hamburger menu for navbar**
+- [x] **Hamburger menu for navbar**
 - [x] Resize about page (1 column)
   - [x] Two columns for social links
 - [x] Resize projects (1 column)
@@ -69,6 +69,7 @@
 - [x] Method for closing window
   - [x] Click outside the window
   - [x] Top right x
+  - [ ] `esc` key
 - [x] Shade out background
 - [x] Title
 - [x] Images
