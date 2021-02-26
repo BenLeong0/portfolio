@@ -15,6 +15,7 @@ const PopupCarousel = (props) => {
             src={`${process.env.PUBLIC_URL}/popup-media/${file.filename}`}
             type="video/webm"
             alt={`${props.id} vid`}
+            key={file.filename}
           >
             Your browser does not support the video tag.
           </video>
@@ -27,6 +28,7 @@ const PopupCarousel = (props) => {
             width="100%"
             src={`${process.env.PUBLIC_URL}/popup-media/${file.filename}`}
             alt={`${props.id} img`}
+            key={file.filename}
           />
         </div>
       );
@@ -39,7 +41,11 @@ const PopupCarousel = (props) => {
     setCarouselMedia(props.media.map((file) => mediaLoad(file)));
   }, [props.media]);
 
-  return <Carousel infiniteLoop>{carouselMedia}</Carousel>;
+  return (
+    <Carousel infiniteLoop showThumbs={false}>
+      {carouselMedia}
+    </Carousel>
+  );
 };
 
 export default PopupCarousel;
