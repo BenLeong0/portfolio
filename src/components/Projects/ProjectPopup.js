@@ -20,31 +20,41 @@ const ProjectPopup = (props) => {
     project.links.length > 0 ? setHasLinks(1) : setHasLinks(0);
   }, [project]);
 
+  const handleKeyPress = (e) => {
+    console.log(5);
+  };
+
   return (
     <div
       className="popup"
       style={{ display: props.popupDisplay }}
       onClick={handleBackgroundClick}
     >
-      <div className="popup-content" onClick={handleContentClick}>
+      <div
+        className="popup-content"
+        onClick={handleContentClick}
+        onKeyPress={handleKeyPress}
+      >
         <PopupExitButton hidePopup={props.hidePopup} />
         <div className="popup-title">{project.name}</div>
         <div className="col-7">
           <div className="popup-text">
-            {project.description.map((paragraph) => (
-              <p>{paragraph}</p>
+            {project.description.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
             ))}
             <div className="popup-links" style={{ opacity: hasLinks }}>
               <b>Links:</b>
               {project.links.map((link) => (
-                <a href={link} target="_blank" rel="noreferrer">
+                <a href={link} target="_blank" rel="noreferrer" key={link}>
                   {link}
                 </a>
               ))}
             </div>
             <div className="popup-techs">
               {props.project.techs.map((tech) => (
-                <div className="popup-tech">{tech}</div>
+                <div className="popup-tech" key={tech}>
+                  {tech}
+                </div>
               ))}
             </div>
           </div>
