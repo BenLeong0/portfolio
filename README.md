@@ -57,7 +57,7 @@
 
 ### Mobile
 
-- [ ] Hamburger menu for navbar
+- [ ] **Hamburger menu for navbar**
 - [x] Resize about page (1 column)
   - [x] Two columns for social links
 - [x] Resize projects (1 column)
@@ -74,14 +74,14 @@
 - [x] Images
 - [x] Description
 - [x] Links
+  - [x] Open in new tab
 - [x] Technologies
 - [x] Mobile formatting
 - [ ] Tablet formatting?
 
 ### Add modules
 
-~~- [ ] react-router (for individual project pages)~~
-
+- [ ] ~~react-router (for individual project pages)~~
 - [x] react-awesome-reveal (components fade in)
   - [x] Fade in each components
   - [x] Cascade fade in projects

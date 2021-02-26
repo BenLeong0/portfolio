@@ -37,7 +37,9 @@ const ProjectPopup = (props) => {
             <div className="popup-links" style={{ opacity: hasLinks }}>
               <b>Links:</b>
               {project.links.map((link) => (
-                <a href={link}>{link}</a>
+                <a href={link} target="_blank" rel="noreferrer">
+                  {link}
+                </a>
               ))}
             </div>
             <div className="popup-techs">
