@@ -47,6 +47,7 @@
 ### Post production
 
 - [x] Fix project tile fade
+- [x] Favicon
 - [x] Change project-link to display:block and organise
 - [x] Make title button work
 - [x] Active based on scroll position
