@@ -17,21 +17,23 @@
       "techs": ["Python", "GitHub", "Git"]
     },
     {
-      "name": "Sudoku Solver",
-      "id": "sudoku",
-      "intro": "A sudoku puzzle solver, using a recursive backtracking algorithm.",
+      "name": "Sorting Algorithms",
+      "id": "sorting",
+      "intro": "Visualisations for common sorting algorithms such as Quicksort, Merge sort and Heapsort.",
       "description": [
-        "This application solves Sudoku problems by implementing a recursive backtracking algorithm, by testing solutions then abandoning them when a problem arises in a DFS-style manner.",
-        "Starting puzzles can either be inputted by the user, or generated randomly from a pregenerated list of 10000 puzzles. It can also be used as a game site, where users can generate a puzzle and attempt to solve it, and the application can be used to identify problems in their solution."
+        "I believe visualisations are a key tool in understanding how algorithms work, and so I built this website to visualise common sorting algorithms including Quicksort, Merge sort and Heapsort. During my final year at university I covered a computer science module named just 'Algorithms', which covered many of these array sorting methods.",
+        "The algorithms are built up in JavaScript and displayed using HTML and CSS, with bars of differing lengths representing elements of the array being sorted. The size of the array can be altered using a slider and the size of the visualiser adjusts automatically.",
+        "WARNING: It is highly recommended RandomSort is not run with over 10 elements, as it is highly computationally expensive and also essentially never terminates ( O((n+1)!) time complexity )."
       ],
       "links": [
-        "https://benleong0.github.io/AlgorithmVisualisations/sudoku/sudoku.html",
+        "https://benleong0.github.io/AlgorithmVisualisations/sorting/sorting.html",
         "https://github.com/BenLeong0/AlgorithmVisualisations"
       ],
       "media": [
-        { "type": "image", "filename": "sudoku-homepage.png" },
-        { "type": "video", "filename": "sudoku-solving.webm" },
-        { "type": "image", "filename": "sudoku-errors.png" }
+        { "type": "image", "filename": "sorting-homepage.png" },
+        { "type": "video", "filename": "sorting-quicksort.webm" },
+        { "type": "video", "filename": "sorting-mergesort.webm" },
+        { "type": "video", "filename": "sorting-heapsort.webm" }
       ],
       "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
@@ -62,26 +64,25 @@
       ]
     },
     {
-      "name": "Sorting Algorithms",
-      "id": "sorting",
-      "intro": "Visualisations for common sorting algorithms such as Quicksort, Merge sort and Heapsort.",
+      "name": "Sudoku Solver",
+      "id": "sudoku",
+      "intro": "A sudoku puzzle solver, using a recursive backtracking algorithm.",
       "description": [
-        "I believe visualisations are a key tool in understanding how algorithms work, and so I built this website to visualise common sorting algorithms including Quicksort, Merge sort and Heapsort. During my final year at university I covered a computer science module named just 'Algorithms', which covered many of these array sorting methods.",
-        "The algorithms are built up in JavaScript and displayed using HTML and CSS, with bars of differing lengths representing elements of the array being sorted. The size of the array can be altered using a slider and the size of the visualiser adjusts automatically.",
-        "WARNING: It is highly recommended RandomSort is not run with over 10 elements, as it is highly computationally expensive and also essentially never terminates ( O((n+1)!) time complexity )."
+        "This application solves Sudoku problems by implementing a recursive backtracking algorithm, by testing solutions then abandoning them when a problem arises in a DFS-style manner.",
+        "Starting puzzles can either be inputted by the user, or generated randomly from a pregenerated list of 10000 puzzles. It can also be used as a game site, where users can generate a puzzle and attempt to solve it, and the application can be used to identify problems in their solution."
       ],
       "links": [
-        "https://benleong0.github.io/AlgorithmVisualisations/sorting/sorting.html",
+        "https://benleong0.github.io/AlgorithmVisualisations/sudoku/sudoku.html",
         "https://github.com/BenLeong0/AlgorithmVisualisations"
       ],
       "media": [
-        { "type": "image", "filename": "sorting-homepage.png" },
-        { "type": "video", "filename": "sorting-quicksort.webm" },
-        { "type": "video", "filename": "sorting-mergesort.webm" },
-        { "type": "video", "filename": "sorting-heapsort.webm" }
+        { "type": "image", "filename": "sudoku-homepage.png" },
+        { "type": "video", "filename": "sudoku-solving.webm" },
+        { "type": "image", "filename": "sudoku-errors.png" }
       ],
       "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
     },
+
     {
       "name": "Anki Pitch Accents",
       "id": "anki",
@@ -96,8 +97,8 @@
         "https://github.com/IllDepence/anki_add_pitch_plugin"
       ],
       "media": [
-        { "type": "image", "filename": "anki-explanation.png" },
-        { "type": "image", "filename": "anki-mobile.png" }
+        { "type": "image", "filename": "anki-mobile.png" },
+        { "type": "image", "filename": "anki-explanation.png" }
       ],
       "techs": ["Python", "Anki", "SVG"]
     },
