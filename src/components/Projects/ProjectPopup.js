@@ -20,9 +20,14 @@ const ProjectPopup = (props) => {
     project.links.length > 0 ? setHasLinks(1) : setHasLinks(0);
   }, [project]);
 
-  const handleKeyPress = (e) => {
-    console.log(5);
-  };
+  useEffect(() => {
+    const close = (e) => {
+      if (e.keyCode === 27) {
+        handleBackgroundClick();
+      }
+    };
+    window.addEventListener("keydown", close);
+  }, []);
 
   return (
     <div
@@ -30,11 +35,7 @@ const ProjectPopup = (props) => {
       style={{ display: props.popupDisplay }}
       onClick={handleBackgroundClick}
     >
-      <div
-        className="popup-content"
-        onClick={handleContentClick}
-        onKeyPress={handleKeyPress}
-      >
+      <div className="popup-content" onClick={handleContentClick}>
         <PopupExitButton hidePopup={props.hidePopup} />
         <div className="popup-title">{project.name}</div>
         <div className="col-7">
