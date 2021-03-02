@@ -27,6 +27,7 @@ const ProjectPopup = (props) => {
       }
     };
     window.addEventListener("keydown", close);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
