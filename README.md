@@ -69,7 +69,7 @@
 - [x] Method for closing window
   - [x] Click outside the window
   - [x] Top right x
-  - [ ] `esc` key
+  - [x] `esc` key
 - [x] Shade out background
 - [x] Title
 - [x] Images
@@ -78,7 +78,7 @@
   - [x] Open in new tab
 - [x] Technologies
 - [x] Mobile formatting
-- [ ] Tablet formatting?
+- [x] Tablet formatting?
 
 ### Add modules
 
