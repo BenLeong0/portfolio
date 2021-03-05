@@ -1,5 +1,9 @@
 # Coding portfolio
 
+## About
+
+This portfolio will be where I hold information about me and projects I have worked on in the past. I am writing it entirely myself in ReactJS, using create-react-app as a basis.
+
 ## To do list
 
 ### Title page
@@ -87,3 +91,8 @@
   - [x] Fade in each components
   - [x] Cascade fade in projects
   - [x] Cascade fade in skills
+
+
+## Note
+
+A lot of inspiration was taken from Matthew Williams' portfolio, hosted at http://findmatthew.com/. While the influence is certainly obvious, I would like to note that the style and layout was something that I had already decided on, and Matthew's portfolio happened to fit many if not all of the ideas I had already come up with. These include the title page, how the projects are laid out, and even the font (Raleway) I had already decided on before finding Matthew's. As such, Matthew's portfolio was largely used more as a stencil to avoid the trial-and-error process of finding ideal sizes etc (although I did completely get the idea of "skill bars" from his page).
