@@ -13,6 +13,7 @@
 
 .about-pfp img {
   border-radius: 50%;
+  width: 200px;
 }
 
 .about-intro {
