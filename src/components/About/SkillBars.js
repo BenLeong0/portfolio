@@ -13,10 +13,10 @@ const SkillBars = (props) => {
   const skills = [
     new Skill("Maths", "90%"),
     new Skill("Python", "80%"),
-    new Skill("JavaScript", "70%"),
+    new Skill("TypeScript", "80%"),
     new Skill("Algorithms", "80%"),
-    new Skill("HTML/CSS", "60%"),
-    new Skill("ReactJS", "40%"),
+    new Skill("HTML/CSS", "80%"),
+    new Skill("ReactJS", "70%"),
     new Skill("Japanese", "80%"),
   ];
 
