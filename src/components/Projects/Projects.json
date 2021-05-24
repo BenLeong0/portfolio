@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "name": "Bitter",
+      "id": "bitter",
+      "intro": "A simple Twitter clone. Fullstack application with a RESTful API and PostgreSQL database",
+      "description": [
+        "Bitter (a portmanteau of Ben and Twitter) is a simplified Twitter clone with many of the core aspects of Twitter, including creating posts, following users, and interacting with posts through likes and reposts.",
+        "This was my first project using a number of services - using AWS service (API Gateway, User Cognito, Lambda Functions), writing in TypeScript, and hosting my own PostgreSQL database (on a Raspberry Pi).",
+        "Moreover, it was an invaluable experience in creating a fullstack application from the ground up, and in ensuring all the different parts of the system are able to work together."
+      ],
+      "links": [
+        "https://benleong0.github.io/bitter/#/home",
+        "https://github.com/BenLeong0/bitter"
+      ],
+      "media": [
+        { "type": "image", "filename": "bitter-timeline.png" },
+        { "type": "image", "filename": "bitter-userpage.png" },
+        { "type": "image", "filename": "bitter-rightcol.png" },
+        { "type": "image", "filename": "bitter-homepage.png" }
+      ],
+      "techs": [
+        "Python",
+        "TypeScript",
+        "ReactJS",
+        "PostgreSQL",
+        "AWS Lambda",
+        "AWS Cognito",
+        "AWS API"
+      ]
+    },
+    {
       "name": "Tilegame (WIP)",
       "id": "tilegame",
       "intro": "A mobile puzzle game, developed as part of a team of four.",
@@ -36,32 +65,6 @@
         { "type": "video", "filename": "sorting-heapsort.webm" }
       ],
       "techs": ["JavaScript", "HTML", "CSS", "Algorithms"]
-    },
-    {
-      "name": "Bitter (WIP)",
-      "id": "bitter",
-      "intro": "A simple Twitter clone. Fullstack application with a RESTful API and PostgreSQL database",
-      "description": [
-        "Bitter is a simplified Twitter clone, with the (working) title coming as a portmanteau of 'Ben' and 'Twitter' (with a coding aspect in bit). A full stack application, the front end is written using ReactJS and the backend using Django, with a PostgreSQL database.",
-        "It includes many of the main core features of twitter, such as creating posts, following users, and having a personalised timeline. Features I plan to implement in the future are interactions (likes, retweets etc) and more user customisation (profile picture etc), but to begin with I will be working on a secure authentication system.",
-        "Being my first practical experience with fullstack development, I learnt a lot from the process about the interactions between components in a system and the challenges of creating these connections."
-      ],
-      "links": ["https://github.com/BenLeong0/bitter_react"],
-      "media": [
-        { "type": "image", "filename": "bitter-timeline.png" },
-        { "type": "image", "filename": "bitter-userpage.png" },
-        { "type": "image", "filename": "bitter-rightcol.png" },
-        { "type": "image", "filename": "bitter-homepage.png" }
-      ],
-      "techs": [
-        "Python",
-        "Django",
-        "JavaScript",
-        "ReactJS",
-        "PostgreSQL",
-        "HTML",
-        "CSS"
-      ]
     },
     {
       "name": "Sudoku Solver",
