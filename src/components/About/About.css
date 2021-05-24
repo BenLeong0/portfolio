@@ -18,7 +18,8 @@
 
 .about-intro {
   max-width: 560px;
-  margin: 20px;
+  margin: auto;
+  padding: 20px;
   text-align: center;
   font-size: 18px;
 }
@@ -50,6 +51,8 @@
   margin-top: 22px;
   font-weight: bold;
 }
+
+/* Skill bars */
 
 .skillbar {
   margin: 15px;
