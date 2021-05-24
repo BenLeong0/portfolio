@@ -16,8 +16,9 @@ const Introduction = (props) => {
       <div className="about-intro">
         <div className="about-intro-title">Who am I?</div>
         <br />I am a recent mathematics graduate from the University of Warwick.
-        Since graduating I have been teaching myself to code, using mostly
-        Python and JavaScript to work on personal projects.
+        Since graduation, I self-taught Python and JavaScript, and am currently
+        working as a software engineer at{" "}
+        <a href="https://myurbanjungle.com/">Urban Jungle Insurance</a>.
       </div>
       {socialLinks.map((link) => (
         <SocialLink link={link} key={link.id} />
