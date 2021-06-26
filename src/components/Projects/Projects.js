@@ -1,5 +1,4 @@
 import { React, useState } from "react";
-import SectionTitle from "../Shared/SectionTitle";
 import "./Projects.css";
 import { Fade } from "react-awesome-reveal";
 
@@ -30,7 +29,7 @@ const Projects = (props) => {
     <section id="projects">
       <Fade direction="up" triggerOnce="true" fraction="0.4">
         <div className="projects-content page-box">
-          <SectionTitle title="projects" />
+          <div className="section-header">Projects</div>
           <div className="project-list">
             <Fade
               direction="up"

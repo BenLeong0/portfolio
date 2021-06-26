@@ -15,9 +15,9 @@ const ProjectPopup = (props) => {
   };
 
   // Hide links section if project has no links
-  const [hasLinks, setHasLinks] = useState(0);
+  const [hasLinks, setHasLinks] = useState(false);
   useEffect(() => {
-    project.links.length > 0 ? setHasLinks(1) : setHasLinks(0);
+    project.links.length > 0 ? setHasLinks(true) : setHasLinks(false);
   }, [project]);
 
   useEffect(() => {
@@ -44,7 +44,7 @@ const ProjectPopup = (props) => {
             {project.description.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
-            <div className="popup-links" style={{ opacity: hasLinks }}>
+            <div className={`popup-links${hasLinks ? "" : " display-none"}`}>
               <b>Links:</b>
               {project.links.map((link) => (
                 <a href={link} target="_blank" rel="noreferrer" key={link}>

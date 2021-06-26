@@ -17,6 +17,7 @@ const SkillBars = (props) => {
     new Skill("Algorithms", "80%"),
     new Skill("HTML/CSS", "80%"),
     new Skill("ReactJS", "70%"),
+    new Skill("Angular", "70%"),
     new Skill("Japanese", "80%"),
   ];
 
