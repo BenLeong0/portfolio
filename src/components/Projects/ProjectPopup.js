@@ -44,7 +44,7 @@ const ProjectPopup = (props) => {
             {project.description.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
-            <div className="popup-links" style={{ display: hasLinks ? "block" : "none" }}>
+            <div className={`popup-links${hasLinks ? "" : " display-none"}`}>
               <b>Links:</b>
               {project.links.map((link) => (
                 <a href={link} target="_blank" rel="noreferrer" key={link}>
