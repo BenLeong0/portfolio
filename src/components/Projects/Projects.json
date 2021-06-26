@@ -6,7 +6,7 @@
       "intro": "A simple Twitter clone. Fullstack application with a RESTful API and PostgreSQL database",
       "description": [
         "Bitter (a portmanteau of Ben and Twitter) is a simplified Twitter clone with many of the core aspects of Twitter, including creating posts, following users, and interacting with posts through likes and reposts.",
-        "This was my first project using a number of services - using AWS service (API Gateway, User Cognito, Lambda Functions), writing in TypeScript, and hosting my own PostgreSQL database (on a Raspberry Pi).",
+        "This was my first project using a number of services - using AWS services (API Gateway, User Cognito, Lambda Functions), writing in TypeScript, and hosting my own PostgreSQL database (on a Raspberry Pi).",
         "Moreover, it was an invaluable experience in creating a fullstack application from the ground up, and in ensuring all the different parts of the system are able to work together."
       ],
       "links": [
