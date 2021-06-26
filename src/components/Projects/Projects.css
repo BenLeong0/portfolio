@@ -4,7 +4,12 @@
 
 .project-list {
   margin: 20px auto;
-  max-width: 768px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-list > div {
+  width: 400px;
 }
 
 .project-tile {
@@ -69,29 +74,4 @@
   text-transform: uppercase;
   width: 50%;
   margin: 5px auto;
-}
-
-@media only screen and (min-width: 768px) {
-  .project-tile {
-    width: 50%;
-  }
-
-  /* Centre final tile if odd number */
-  .project-tile:last-child:nth-child(odd) {
-    margin-left: 25%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .project-tile {
-    width: 33.3%;
-  }
-
-  .project-tile:last-child:nth-child(odd) {
-    margin-left: 0;
-  }
-
-  .project-list {
-    max-width: 100%;
-  }
 }
