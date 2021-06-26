@@ -54,11 +54,17 @@
 
 /* Skill bars */
 
+.skillbars {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
 .skillbar {
-  margin: 15px;
-  float: left;
-  margin-left: 5%;
-  max-width: 90%;
+  width: 85%;
 }
 
 .skillbar-title {
@@ -108,10 +114,6 @@
 
   .skillbar-title {
     font-size: 18px;
-  }
-
-  .skillbar {
-    margin-left: 8%;
   }
 
   .skillbar-percent {
