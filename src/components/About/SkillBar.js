@@ -4,7 +4,7 @@ const SkillBar = (props) => {
   const fillWidth = { width: props.width };
 
   return (
-    <div className="skillbar col-10">
+    <div className="skillbar">
       <div className="skillbar-title">{props.title}</div>
       <div className="skillbar-bar">
         <div className="skillbar-fill" style={fillWidth} />
