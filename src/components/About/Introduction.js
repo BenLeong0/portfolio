@@ -20,9 +20,11 @@ const Introduction = (props) => {
         working as a software engineer at{" "}
         <a href="https://myurbanjungle.com/">Urban Jungle Insurance</a>.
       </div>
-      {socialLinks.map((link) => (
-        <SocialLink link={link} key={link.id} />
-      ))}
+      <div class="social-links-container">
+        {socialLinks.map((link) => (
+          <SocialLink link={link} key={link.id} />
+        ))}
+      </div>
     </div>
   );
 };
