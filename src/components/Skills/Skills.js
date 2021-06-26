@@ -1,5 +1,4 @@
 import React from "react";
-import SectionTitle from "../Shared/SectionTitle";
 import "./Skills.css";
 import { Fade } from "react-awesome-reveal";
 
@@ -12,7 +11,7 @@ const Skills = (props) => {
     <section id="skills">
       <Fade direction="up" triggerOnce="true" fraction="0.4">
         <div className="skills-content page-box">
-          <SectionTitle title="Key Skills" />
+          <div className="section-header">Key Skills</div>
           <div className="skills-wrap">
             <Fade
               direction="up"

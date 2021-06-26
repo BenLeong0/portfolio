@@ -42,12 +42,13 @@ section:not(#home) {
   font-weight: bold;
   color: #1b242f;
 }
-
-.section-header-bar {
+.section-header::after {
+  content: "";
   height: 4px;
   background-color: #1b242f;
   width: 100px;
   margin: 20px auto 40px;
+  display: block;
 }
 
 body {
