@@ -3,7 +3,6 @@ import "./About.css";
 import { Fade } from "react-awesome-reveal";
 
 import Introduction from "./Introduction";
-import SkillBars from "./SkillBars";
 
 const About = (props) => {
   return (
@@ -12,7 +11,6 @@ const About = (props) => {
         <div className="about-content page-box">
           <div className="section-header">About</div>
           <Introduction />
-          <SkillBars />
         </div>
       </Fade>
     </section>
