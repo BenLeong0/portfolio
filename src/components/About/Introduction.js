@@ -9,7 +9,7 @@ const Introduction = (props) => {
   const socialLinks = require("./SocialLinks.json").items;
 
   return (
-    <div className="col-6 introduction">
+    <div className="introduction">
       <div className="about-pfp">
         <img src={pfp} alt="Profile" />
       </div>
